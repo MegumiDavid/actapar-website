@@ -1,0 +1,15 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1-of-2 {
+    width: 47.5%;
+}

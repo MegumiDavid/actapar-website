@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-1-of-2 {
+  width: 47.5%;
+}/*# sourceMappingURL=main.css.map */

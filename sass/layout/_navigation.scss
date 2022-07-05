@@ -1,7 +1,9 @@
 .nav {
     position: sticky;
+    z-index: 1;
+
     top: 0;
-    background-color: #fff;
+    background-color: $light-gray;
 
     .container {
         padding-top: 2.2rem;
@@ -10,8 +12,7 @@
 
     &__logo {
         width: 25rem;
-/*         margin-left: -25rem;
- */        height: auto;
+        height: auto;
     }
 
     &__list {
@@ -22,7 +23,7 @@
 
     &__item {
         &:not(:last-child) {
-            margin-right: 4.5rem;
+            margin-right: 1rem;
         }
     }
     

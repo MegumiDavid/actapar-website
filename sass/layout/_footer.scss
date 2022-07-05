@@ -1,9 +1,10 @@
 .footer {
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 0.09rem;  
   font-size: 1.3rem;
   background-color: $blue-dark;
+  margin-top: 50vh;
 
 /*   .container {
 
@@ -32,6 +33,7 @@
 
   &__icon {
     margin-right: 1rem;
+    color: #fff;
   }
 
   &__link {
@@ -75,4 +77,5 @@
     font-weight: 200;
     text-align: right;
     margin-bottom: -0.5rem;
+    color: #fff;
 }

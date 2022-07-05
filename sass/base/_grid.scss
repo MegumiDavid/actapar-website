@@ -1,15 +1,20 @@
 .container {
-    max-width: 3840px;
-    margin: 0 auto;
-    padding: 5rem 25rem;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5rem 32rem;
+
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .col-1-of-2 {
-    width: 47.5%;
+  width: 48%;
 }

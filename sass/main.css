@@ -15,7 +15,7 @@ html {
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 5rem 10rem;
+  padding: 5rem 32rem;
 }
 
 .row {
@@ -32,6 +32,8 @@ html {
   width: 48%;
 }
 
+/* //font-family: 'Splash', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap'); //NAO USAR */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -42,14 +44,14 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: #093E52;
   margin-bottom: 4rem;
 }
@@ -57,7 +59,7 @@ h2 {
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   color: #5D9732;
   margin-bottom: 2rem;
 }
@@ -103,6 +105,7 @@ ul {
   letter-spacing: 0.09rem;
   font-size: 1.3rem;
   background-color: #093E52;
+  margin-top: auto;
 }
 .footer .row {
   align-items: start;
@@ -206,14 +209,129 @@ ul {
   content: "";
 }
 
+.header-consultancy__content {
+  height: 64rem;
+  background-image: url("../../images/desktop/header-consultancy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-consultancy__text {
+  max-width: 68.9rem;
+  padding: 4rem;
+  text-align: left;
+  position: absolute;
+  top: 35%;
+}
+.header-consultancy__p-header {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+  /*     position: absolute;
+  */
+  top: 35%;
+}
+
+.cons-lecture {
+  background-color: #FCFAFA;
+}
+.cons-lecture .container {
+  padding: 10rem 42rem;
+  text-align: center;
+}
+.cons-lecture .h2 {
+  text-align: center;
+}
+.cons-lecture__list {
+  display: inline-block;
+}
+
+.leadership-test {
+  background-color: #8FBE6C;
+}
+.leadership-test .container {
+  padding: 10rem 42rem;
+}
+.leadership-test .h2 {
+  text-align: center;
+  color: #fff;
+}
+.leadership-test .p {
+  color: #fff;
+}
+
+.cons-consultancy {
+  background-color: #457B8F;
+}
+.cons-consultancy .container {
+  padding: 14rem 42rem;
+  text-align: center;
+  align-content: center;
+}
+.cons-consultancy .h2 {
+  color: #fff;
+}
+.cons-consultancy__list {
+  display: inline-block;
+  color: #fff;
+}
+
+.mensage {
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 30rem;
+}
+
+form {
+  margin-left: 40rem;
+}
+
+form label {
+  display: block;
+  margin: 1rem 0rem;
+  font-size: 3rem;
+}
+
+.default-input {
+  display: block;
+  margin: 0 0 2rem;
+  padding: 1rem 2.5rem;
+  width: 40%;
+}
+
+::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+.name, .email, .telephone, .subject, .text-mensage {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #093E52;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
 .stripe {
   background-color: #5D9732;
   height: 1.4rem;
 }
 
 .header__content {
-  height: 90rem;
-  background-image: url("../../images/desktop/header-lecture.png");
+  height: 64rem;
+  background-image: url("../../images/desktop/header-home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

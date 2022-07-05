@@ -1,10 +1,10 @@
 .footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
-  letter-spacing: 0.09rem;  
+  letter-spacing: 0.09rem;
   font-size: 1.3rem;
   background-color: $blue-dark;
-
+  margin-top: auto;
   // .container { }
 
   .row {
@@ -35,32 +35,31 @@
 
   &__link {
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 200;
     color: #fff;
     transition: all 200ms;
-    
+
     &:hover {
-        color: $green-highlight;   
-        text-decoration: underline;
+      color: $green-highlight;
+      text-decoration: underline;
     }
   }
-
 }
 
 .col {
-    &--wrapper {
-        display: flex;
-    }
-    
-    &--1 {
-        // margin-left: 2rem;
-    }
-    
-    &--3 {
-        margin-left:10rem;
-        // margin-right: 2rem;
-    }
+  &--wrapper {
+    display: flex;
+  }
+
+  &--1 {
+    // margin-left: 2rem;
+  }
+
+  &--3 {
+    margin-left: 10rem;
+    // margin-right: 2rem;
+  }
 }
 
 .hr {
@@ -70,7 +69,7 @@
     margin-left: -2.5%;
   }
 
-  border-bottom: .1rem solid #fff;
+  border-bottom: 0.1rem solid #fff;
   margin-top: 4rem;
   margin-bottom: 3rem;
   background-color: #fff;
@@ -79,11 +78,11 @@
 }
 
 .copyright {
-    font-size: 1.1rem;
-    font-family: Roboto;
-    font-weight: 300;
-    text-align: right;
-    margin-bottom: -4rem;
-    margin-top: -2rem;
-    color: #fff;
+  font-size: 1.1rem;
+  font-family: Roboto;
+  font-weight: 300;
+  text-align: right;
+  margin-bottom: -4rem;
+  margin-top: -2rem;
+  color: #fff;
 }

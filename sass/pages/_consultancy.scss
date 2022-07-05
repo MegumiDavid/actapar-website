@@ -1,0 +1,75 @@
+.header-consultancy {
+  &__content {
+    height: 64rem;
+    background-image: url("../../images/desktop/header-consultancy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  &__text {
+    // max-width: 40%;
+    max-width: 68.9rem;
+    padding: 4rem;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+  }
+
+  &__p-header {
+    // max-width: 40%;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+    /*     position: absolute;
+ */
+    top: 35%;
+  }
+}
+
+.cons-lecture {
+  background-color: $light-gray;
+  .container {
+    padding: 10rem 42rem;
+    text-align: center;
+  }
+  .h2 {
+    text-align: center;
+  }
+  &__list {
+    display: inline-block;
+  }
+}
+
+.leadership-test {
+  background-color: $green-light;
+  .container {
+    padding: 10rem 42rem;
+  }
+  .h2 {
+    text-align: center;
+    color: #fff;
+  }
+  .p {
+    color: #fff;
+  }
+}
+
+.cons-consultancy {
+  background-color: $blue-light;
+  .container {
+    padding: 14rem 42rem;
+    text-align: center;
+    align-content: center;
+  }
+  .h2 {
+    color: #fff;
+  }
+  &__list {
+    display: inline-block;
+    color: #fff;
+  }
+}

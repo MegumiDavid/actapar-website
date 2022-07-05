@@ -4,11 +4,8 @@
   letter-spacing: 0.09rem;  
   font-size: 1.3rem;
   background-color: $blue-dark;
-  margin-top: 50vh;
 
-/*   .container {
-
-  } */
+  // .container { }
 
   .row {
     align-items: start;
@@ -38,6 +35,8 @@
 
   &__link {
     text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 200;
     color: #fff;
     transition: all 200ms;
     
@@ -55,27 +54,36 @@
     }
     
     &--1 {
-        margin-left: 2rem;
+        // margin-left: 2rem;
     }
     
     &--3 {
         margin-left:10rem;
-        margin-right: 2rem;
+        // margin-right: 2rem;
     }
 }
 
 .hr {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    background-color: #fff;
-    color: #fff;
+  &--wrapper {
+    width: 105%;
+    height: 4rem;
+    margin-left: -2.5%;
+  }
+
+  border-bottom: .1rem solid #fff;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  color: #fff;
+  width: 100%;
 }
 
 .copyright {
-    font-size: 0.9rem;
-    // font-family: Roboto;
-    font-weight: 200;
+    font-size: 1.1rem;
+    font-family: Roboto;
+    font-weight: 300;
     text-align: right;
-    margin-bottom: -0.5rem;
+    margin-bottom: -4rem;
+    margin-top: -2rem;
     color: #fff;
 }

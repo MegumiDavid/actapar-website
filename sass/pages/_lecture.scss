@@ -1,0 +1,46 @@
+.header-lecture {  
+    &__content {
+      height: 90rem;
+      background-image: url("../../images/desktop/header-lecture.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+   }
+
+   &__text {
+    // max-width: 40%;
+    max-width: 68.9rem;
+    padding: 4rem;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+
+    .desc {
+      font-size: 2.2rem;
+      font-family: 'Poppins';
+      font-weight: 400;
+      color: #fff;
+      margin-top: 2rem;
+    }
+   }
+}
+
+.our-lecture {
+    .container {
+        padding-top:    12.5rem;
+        padding-bottom: 12.5rem;
+    }
+
+    &__text {
+
+        h2 { }
+        p { }
+    }
+
+    &__img {
+        margin-top: 10rem;
+        height: auto;
+        width: 100%;
+    }
+}

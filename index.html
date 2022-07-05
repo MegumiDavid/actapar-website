@@ -46,7 +46,7 @@
     </nav>
 
     <header class="header">
-      <div class="header__stripe"></div>
+      <div class="stripe"></div>
       <div class="header__content">
         <div class="container">
           <div class="header__text">
@@ -56,8 +56,45 @@
           </div>
         </div>
       </div>
-      <div class="header__stripe"></div>
+      <div class="stripe"></div>
     </header>
+
+    <div class="container">
+      <div class="cards-home">
+        <div class="card-home card-home--1">
+          <div class="circle">
+            <i class="card-home__icon fa-solid fa-lightbulb"></i>
+          </div>
+          <h3 class="card-home__title">O que fazemos?</h3>
+          <p class="card-home__p">fazendo com aplicação de metodos
+          </p>
+        </div>
+        <div class="card-home card-home--2">
+          <div class="circle">
+            <i class="card-home__icon fa-solid fa-gears"></i>
+          </div>
+          <h3 class="card-home__title">Como fazemos?</h3>
+          <p class="card-home__p">fazendo com aplicação de metodos
+          </p>
+        </div>
+        <div class="card-home card-home--3">
+          <div class="circle">
+            <i class="card-home__icon fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h3 class="card-home__title">Porque fazemos?</h3>
+          <p class="card-home__p">fazendo com aplicação de metodos
+          </p>
+        </div>
+        <div class="card-home card-home--4">
+          <div class="circle">
+            <i class="card-home__icon fa-solid fa-people-group"></i>
+          </div>
+          <h3 class="card-home__title">Metodologia</h3>
+          <p class="card-home__p">fazendo com aplicação de metodos
+          </p>
+        </div>
+      </div>
+    </div>
 
     <section class="goal">
       <div class="container">
@@ -98,11 +135,13 @@
               para geração e captação de ideias de todos os colaboradores. Essa
               é a proposta da ACTAPAR.
             </p>
-
-            Ver menos
           </div>
           <div class="col-1-of-2 goal__img-wrapper">
-            <img src="images/desktop/about-us-1.png" alt="" class="goal__img" />
+            <img 
+              src="images/desktop/about-us-1.png" 
+              alt="actapar - o que fazemos" 
+              class="goal__img" 
+            />
           </div>
         </div>
       </div>
@@ -137,22 +176,22 @@
               projeto continua com as fases:
             </p>
             <ul class="how__list">
-              <li class="how__item">
+              <li class="how__item li">
                 Análise de Ambiente onde são realizadas entrevistas individuais
                 com todas as lideranças de nível médio da organização,
                 particularmente os supervisores do pessoal de linha de frente;
               </li>
-              <li class="how__item">
+              <li class="how__item li">
                 Conscientização das lideranças com a realização de treinamentos
                 coletivos e individuais sobre expectativas, posturas,
                 importância do projeto.
               </li>
-              <li class="how__item">
+              <li class="how__item li">
                 Teste Piloto – em empresas com mais de 50 funcionários é
                 escolhida uma área para testar o projeto de geração e captação
                 de ideias.
               </li>
-              <li class="how__item">
+              <li class="how__item li">
                 Consultoria Pós Implantação – consistindo principalmente de
                 treinamentos de utilização do sistema para todos os
                 colaboradores da empresa e para as lideranças
@@ -162,7 +201,7 @@
           <div class="col-1-of-2">
             <img
               src="images/desktop/about-us-2.png"
-              alt=""
+              alt="actapar - como fazemos"
               class="how__img how__img-wrapper"
             />
           </div>
@@ -227,11 +266,11 @@
 
     <section class="methodology">
       <div class="container">
-        <h2></h2>
+        <h2>Metodologia Utilizada </h2>
         <div class="wrapper">
           <h3>Palestras conceituais para a liderança</h3>
           <ul>
-            <li>
+            <li class="li">
               Palestras ministradas à liderança da Empresa abordando os tipos
               mais comuns de sistemas de geração e captação de ideias.Como um
               sistema de alto desempenho propulsiona a cultura interna de
@@ -240,7 +279,7 @@
               partir de todas as pessoas da organização, do general ao soldado
               raso.
             </li>
-            <li>
+            <li class="li">
               Entrevistas individuais para mensuração da consciência do escopo,
               benefícios e expectativas que um programa de gestão de ideias de
               alto desempenho pode trazer à empresa.
@@ -269,23 +308,23 @@
         <div class="wrapper">
           <h3>Consultoria Pós-implantação</h3>
           <ul>
-            <li>
+            <li class="li">
               Treinamento de utilização do sistema para todos os colaboradores
               da empresa e para as lideranças;
             </li>
-            <li>
+            <li class="li">
               Treinamento específico para o alto-escalão para cobranças e
               acompanhamento de desempenho;
             </li>
-            <li>
+            <li class="li">
               Relatórios periódicos de desempenho com reuniões para discussão de
               resultados;
             </li>
-            <li>
+            <li class="li">
               Treinamento da equipe do projeto para gerenciamento do sistema
             </li>
             <li>Elaboração de formulários de captação de ideias</li>
-            <li>
+            <li class="li">
               Desenvolvimento de ambiente WEB para captação externa de ideias
               (em conjunto com a equipe de TI)
             </li>
@@ -297,7 +336,7 @@
     <footer class="footer">
       <div class="container">
         <img
-          src="images/actapar-logo.svg"
+          src="images/actapar-logo-white.svg"
           alt="Actapar Logo"
           class="footer__logo"
         />
@@ -362,7 +401,9 @@
             </div>
           </div>
         </div>
-        <hr class="hr" />
+        <div class="hr--wrapper">
+          <div class="hr"></div>
+        </div>
         <p class="copyright">
           © copyright 2015. actapar por david-productions. todos os direitos
           reservados.

@@ -35,3 +35,19 @@ form label{
 textarea {
     font-family: 'Roboto', sans-serif;
 }
+
+.send-form {
+    width: 15%;
+    padding: 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    background-color: $green-highlight;
+    color: $light-gray;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    margin-left: 12em;
+}
+

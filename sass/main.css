@@ -15,7 +15,7 @@ html {
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 5rem 32rem;
+  padding: 5rem 34rem;
 }
 
 .row {
@@ -59,14 +59,14 @@ h2 {
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #5D9732;
   margin-bottom: 2rem;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: justify;
   line-height: 2.8rem;
   margin-bottom: 2.5rem;
@@ -83,6 +83,7 @@ ul {
 .li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 1.6rem;
   line-height: 2.8rem;
   text-align: justify;
   margin-left: 0rem;
@@ -178,13 +179,14 @@ ul {
   z-index: 1;
   top: 0;
   background-color: #FCFAFA;
+  box-shadow: -1px 7px 12px rgba(0, 0, 0, 0.2);
 }
 .nav .container {
-  padding-top: 2.2rem;
-  padding-bottom: 2.2rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 .nav__logo {
-  width: 25rem;
+  width: 24rem;
   height: auto;
 }
 .nav__list {
@@ -193,12 +195,12 @@ ul {
   justify-content: end;
 }
 .nav__item:not(:last-child) {
-  margin-right: 2.5rem;
+  margin-right: 2rem;
 }
 .nav__link {
   color: #093E52;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   transition: all 200ms;
 }
@@ -322,6 +324,21 @@ form label {
 
 textarea {
   font-family: "Roboto", sans-serif;
+}
+
+.send-form {
+  width: 15%;
+  padding: 1em 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 550;
+  background-color: #81C54F;
+  color: #FCFAFA;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  margin-left: 15em;
 }
 
 .stripe {

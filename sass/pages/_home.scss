@@ -1,0 +1,17 @@
+body {
+  background-color: $green;
+}
+
+.header {
+  height: 80vh;
+  background-color: cornflowerblue;
+
+  &__stripe {
+    background-color: $green;
+    height: 1rem;
+  }
+
+  &__content {
+    background-image: url("../images/desktop/header-home-png");
+  }
+}

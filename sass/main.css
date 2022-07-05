@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 3840px;
+  margin: 0 auto;
+  padding: 5rem 25rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-1-of-2 {
+  width: 47.5%;
+}
+
+body {
+  color: #fff;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.09rem;
+  font-size: 1.3rem;
+  background-color: #093E52;
+  /*   .container {
+
+    } */
+}
+.footer .row {
+  align-items: start;
+  margin-top: 3rem;
+}
+.footer .col-1-of-4 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.footer__logo {
+  filter: brightness(0) invert(1);
+}
+.footer__list {
+  list-style: none;
+}
+.footer__item {
+  margin-bottom: 1rem;
+}
+.footer__icon {
+  margin-right: 1rem;
+}
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 200ms;
+}
+.footer__link:hover {
+  color: #81C54F;
+  text-decoration: underline;
+}
+
+.col--wrapper {
+  display: flex;
+}
+.col--1 {
+  margin-left: 2rem;
+}
+.col--3 {
+  margin-left: 10rem;
+  margin-right: 2rem;
+}
+
+.hr {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  font-weight: 200;
+  text-align: right;
+  margin-bottom: -0.5rem;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+.nav .container {
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+}
+.nav__logo {
+  width: 25rem;
+  /*         margin-left: -25rem;
+   */
+  height: auto;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.nav__item:not(:last-child) {
+  margin-right: 4.5rem;
+}
+.nav__link {
+  color: #093E52;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  transition: all 200ms;
+}
+.nav__link:hover {
+  color: #5D9732;
+}
+
+body {
+  background-color: #5D9732;
+}
+
+.header {
+  height: 80vh;
+  background-color: cornflowerblue;
+}
+.header__stripe {
+  background-color: #5D9732;
+  height: 1rem;
+}
+.header__content {
+  background-image: url("../images/desktop/header-home-png");
+}/*# sourceMappingURL=main.css.map */

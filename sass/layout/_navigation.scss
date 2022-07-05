@@ -1,0 +1,40 @@
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+    .container {
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+    }
+
+    &__logo {
+        width: 25rem;
+/*         margin-left: -25rem;
+ */        height: auto;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 4.5rem;
+        }
+    }
+    
+    &__link {
+        color: $blue-dark;
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-family: 'Poppins', sans-serif;
+        transition: all 200ms;
+
+        &:hover {
+            color: $green;
+        }
+    }
+}

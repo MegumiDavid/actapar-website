@@ -550,6 +550,24 @@ textarea {
   width: 90%;
   height: auto;
 }
+.goal #goal_checkb {
+  display: none;
+}
+.goal #goal_checkb:checked ~ .goal_readmore {
+  display: block;
+}
+.goal #goal_checkb:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.goal #goal_checkb:checked ~ .read-more-text:after {
+  content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.goal .goal_readmore {
+  display: none;
+  transition: 0.5s linear;
+}
 
 .how {
   background-color: #FCFAFA;
@@ -569,10 +587,46 @@ textarea {
   width: 90%;
   height: auto;
 }
+.how #how_checkb {
+  display: none;
+}
+.how #how_checkb:checked ~ .how_readmore {
+  display: block;
+}
+.how #how_checkb:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.how #how_checkb:checked ~ .read-more-text:after {
+  content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.how .how_readmore {
+  display: none;
+  transition: 0.5s linear;
+}
 
 .why .container {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+.why #checkb {
+  display: none;
+}
+.why #checkb:checked ~ .readmore {
+  display: block;
+}
+.why #checkb:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.why #checkb:checked ~ .read-more-text:after {
+  content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.why .readmore {
+  display: none;
+  transition: 0.5s linear;
 }
 
 .methodology {
@@ -587,6 +641,33 @@ textarea {
 }
 .methodology .wrapper:last-child {
   margin-bottom: 0rem;
+}
+.methodology #method_checkb {
+  display: none;
+}
+.methodology #method_checkb:checked ~ .method_readmore {
+  display: block;
+}
+.methodology #method_checkb:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.methodology #method_checkb:checked ~ .read-more-text:after {
+  content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.methodology .method_readmore {
+  display: none;
+  transition: 0.5s linear;
+}
+
+.read-more-text {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #5D9732;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .header-lecture__content {

@@ -61,7 +61,6 @@
 
     <div class="container">
       <div class="cards-home">
-        
         <a href="#goal" class="card-home card-home--1">
           <div class="circle">
             <i class="card-home__icon fa-solid fa-lightbulb"></i>
@@ -69,7 +68,7 @@
           <h3 class="card-home__title">O que fazemos?</h3>
           <p class="card-home__p">fazendo com aplicação de metodos</p>
         </a>
-      
+
         <a href="#how" class="card-home card-home--2">
           <div class="circle">
             <i class="card-home__icon fa-solid fa-gears"></i>
@@ -100,6 +99,7 @@
       <div class="container">
         <div class="row">
           <div class="col-1-of-2">
+            <input type="checkbox" id="goal_checkb" />
             <h2 class="h2">O que fazemos?</h2>
             <p class="goal__p">
               Somos uma empresa especializada em gestão de cultura de inovação,
@@ -123,18 +123,21 @@
               funcionários, de todos os níveis, estão diretamente envolvidos, do
               general ao soldado raso.
             </p>
+            <div class="goal_readmore">
+              <p class="goal__p">
+                Para tanto é necessário que a cultura interna da empresa
+                propicie a formação do que é conhecido como Meio Inovador
+                Interno.
+              </p>
 
-            <p class="goal__p">
-              Para tanto é necessário que a cultura interna da empresa propicie
-              a formação do que é conhecido como Meio Inovador Interno.
-            </p>
-
-            <p class="goal__p">
-              O desenvolvimento de uma poderosa cultura interna de inovação pode
-              ser conseguido com a implantação de sistemas de alto desempenho
-              para geração e captação de ideias de todos os colaboradores. Essa
-              é a proposta da ACTAPAR.
-            </p>
+              <p class="goal__p">
+                O desenvolvimento de uma poderosa cultura interna de inovação
+                pode ser conseguido com a implantação de sistemas de alto
+                desempenho para geração e captação de ideias de todos os
+                colaboradores. Essa é a proposta da ACTAPAR.
+              </p>
+            </div>
+            <label for="goal_checkb" class="read-more-text">Ler Mais...</label>
           </div>
           <div class="col-1-of-2 goal__img-wrapper">
             <img
@@ -151,6 +154,7 @@
       <div class="container">
         <div class="row row-reverse">
           <div class="col-1-of-2">
+            <input type="checkbox" id="how_checkb" />
             <h2>Como fazemos?</h2>
             <p class="how__p">
               A ACTAPAR conta com forte equipe de profissionais especializados
@@ -163,40 +167,44 @@
               da empresa tem obrigatoriamente de contar com o envolvimento da
               cúpula diretiva, especialmente do CEO.
             </p>
-            <p class="how__p">
-              Assim, a primeira fase do projeto consiste de palestras
-              conceituais ministradas à liderança da empresa informando sobre os
-              diversos tipos de sistemas de geração e captação de ideias e como
-              um sistema de alto desempenho na geração captação de ideias
-              propulsiona a cultura interna de inovação, ao favorecer a criação
-              do Meio Inovador Interno.
-            </p>
-            <p class="how__p">
-              Findo a fase de palestras de conceituação para a liderança o
-              projeto continua com as fases:
-            </p>
-            <ul class="how__list">
-              <li class="how__item li">
-                Análise de Ambiente onde são realizadas entrevistas individuais
-                com todas as lideranças de nível médio da organização,
-                particularmente os supervisores do pessoal de linha de frente;
-              </li>
-              <li class="how__item li">
-                Conscientização das lideranças com a realização de treinamentos
-                coletivos e individuais sobre expectativas, posturas,
-                importância do projeto.
-              </li>
-              <li class="how__item li">
-                Teste Piloto – em empresas com mais de 50 funcionários é
-                escolhida uma área para testar o projeto de geração e captação
-                de ideias.
-              </li>
-              <li class="how__item li">
-                Consultoria Pós Implantação – consistindo principalmente de
-                treinamentos de utilização do sistema para todos os
-                colaboradores da empresa e para as lideranças
-              </li>
-            </ul>
+            <div class="how_readmore">
+              <p class="how__p">
+                Assim, a primeira fase do projeto consiste de palestras
+                conceituais ministradas à liderança da empresa informando sobre
+                os diversos tipos de sistemas de geração e captação de ideias e
+                como um sistema de alto desempenho na geração captação de ideias
+                propulsiona a cultura interna de inovação, ao favorecer a
+                criação do Meio Inovador Interno.
+              </p>
+              <p class="how__p">
+                Findo a fase de palestras de conceituação para a liderança o
+                projeto continua com as fases:
+              </p>
+              <ul class="how__list">
+                <li class="how__item li">
+                  Análise de Ambiente onde são realizadas entrevistas
+                  individuais com todas as lideranças de nível médio da
+                  organização, particularmente os supervisores do pessoal de
+                  linha de frente;
+                </li>
+                <li class="how__item li">
+                  Conscientização das lideranças com a realização de
+                  treinamentos coletivos e individuais sobre expectativas,
+                  posturas, importância do projeto.
+                </li>
+                <li class="how__item li">
+                  Teste Piloto – em empresas com mais de 50 funcionários é
+                  escolhida uma área para testar o projeto de geração e captação
+                  de ideias.
+                </li>
+                <li class="how__item li">
+                  Consultoria Pós Implantação – consistindo principalmente de
+                  treinamentos de utilização do sistema para todos os
+                  colaboradores da empresa e para as lideranças
+                </li>
+              </ul>
+            </div>
+            <label for="how_checkb" class="read-more-text">Ler Mais...</label>
           </div>
           <div class="col-1-of-2">
             <img
@@ -211,6 +219,7 @@
 
     <section class="why" id="why">
       <div class="container">
+        <input type="checkbox" id="checkb" />
         <h2>Para que fazemos?</h2>
         <p class="why__p">
           A primeira tática para enfrentamento de crises normalmente é a redução
@@ -230,42 +239,47 @@
           radicais exigem altos investimentos em P&D tem afastado muitas
           organizações da busca pela inovação estratégica.
         </p>
-        <p class="why__p">
-          Porém, existem exceções – CEOs que acreditam que a inovação é
-          dependente de uma cultura interna, no que estão absolutamente
-          corretos. Uma organização inovadora (aquela que pratica inovação de
-          forma sistemática) possui uma cultura especial, que inclui, entre
-          outras características, a tolerância aos erros bem intencionados e a
-          liberdade de se ter ideias.
-        </p>
-        <p class="why__p">
-          O que é interessante é que uma cultura desse tipo gera um ambiente
-          complexo que favorece a criatividade. Esse ambiente inovador (Meio
-          Inovador Interno) produz muitas inovações a maioria delas pequenas,
-          incrementais, mas também algumas radicais.
-        </p>
-        <p class="why__p">
-          Assim, a construção da cultura de inovação de uma empresa (Meio
-          Inovador Interno) pode ser propulsionada com um sistema de geração e
-          captação de ideias de alto desempenho.
-        </p>
-        <p class="why__p">
-          Algumas lideranças perceberam isso, mas encontram dificuldade sem
-          implantar um sistema desse tipo, quase sempre caindo no mesmo erro dos
-          desgastados sistemas de caixa de sugestões, criados no final do século
-          XIX.
-        </p>
-        <p class="why__p">
-          A ACTAPAR acredita ter a solução para isso, Assim procuramos aquelas
-          empresas cuja liderança acredita na inovação a partir de todos os
-          funcionários da organização, mas precisam de assessoria especializada
-          para criar um sistema de alto desempenho para gerar e captar ideias.
-        </p>
+        <div class="readmore">
+          <p class="why__p">
+            Porém, existem exceções – CEOs que acreditam que a inovação é
+            dependente de uma cultura interna, no que estão absolutamente
+            corretos. Uma organização inovadora (aquela que pratica inovação de
+            forma sistemática) possui uma cultura especial, que inclui, entre
+            outras características, a tolerância aos erros bem intencionados e a
+            liberdade de se ter ideias.
+          </p>
+          <p class="why__p">
+            O que é interessante é que uma cultura desse tipo gera um ambiente
+            complexo que favorece a criatividade. Esse ambiente inovador (Meio
+            Inovador Interno) produz muitas inovações a maioria delas pequenas,
+            incrementais, mas também algumas radicais.
+          </p>
+          <p class="why__p">
+            Assim, a construção da cultura de inovação de uma empresa (Meio
+            Inovador Interno) pode ser propulsionada com um sistema de geração e
+            captação de ideias de alto desempenho.
+          </p>
+          <p class="why__p">
+            Algumas lideranças perceberam isso, mas encontram dificuldade sem
+            implantar um sistema desse tipo, quase sempre caindo no mesmo erro
+            dos desgastados sistemas de caixa de sugestões, criados no final do
+            século XIX.
+          </p>
+          <p class="why__p">
+            A ACTAPAR acredita ter a solução para isso, Assim procuramos aquelas
+            empresas cuja liderança acredita na inovação a partir de todos os
+            funcionários da organização, mas precisam de assessoria
+            especializada para criar um sistema de alto desempenho para gerar e
+            captar ideias.
+          </p>
+        </div>
+        <label for="checkb" class="read-more-text">Ler Mais...</label>
       </div>
     </section>
 
     <section class="methodology" id="methodology">
       <div class="container">
+        <input type="checkbox" id="method_checkb" />
         <h2>Metodologia Utilizada</h2>
         <div class="wrapper">
           <h3>Palestras conceituais para a liderança</h3>
@@ -295,45 +309,49 @@
             tópicos pertinentes;
           </p>
         </div>
-        <div class="wrapper">
-          <h3>Implantação do Teste Piloto</h3>
-          <p>
-            Teste em pequena escala do sistema de ideias antes de ser estendido
-            para toda a organização. Em organizações menores (com menos de 50
-            pessoas) o teste piloto envolve a todos, porém, é definido um tempo
-            de experimentação e aprendizado depois que o sistema de ideias é
-            lançado, antes de ser considerado “oficialmente” lançado.
-          </p>
+        <div class="method_readmore">
+          <div class="wrapper">
+            <h3>Implantação do Teste Piloto</h3>
+            <p>
+              Teste em pequena escala do sistema de ideias antes de ser
+              estendido para toda a organização. Em organizações menores (com
+              menos de 50 pessoas) o teste piloto envolve a todos, porém, é
+              definido um tempo de experimentação e aprendizado depois que o
+              sistema de ideias é lançado, antes de ser considerado
+              “oficialmente” lançado.
+            </p>
+          </div>
+          <div class="wrapper">
+            <h3>Consultoria Pós-implantação</h3>
+            <ul>
+              <li class="li">
+                Treinamento de utilização do sistema para todos os colaboradores
+                da empresa e para as lideranças;
+              </li>
+              <li class="li">
+                Treinamento específico para o alto-escalão para cobranças e
+                acompanhamento de desempenho;
+              </li>
+              <li class="li">
+                Relatórios periódicos de desempenho com reuniões para discussão
+                de resultados;
+              </li>
+              <li class="li">
+                Treinamento da equipe do projeto para gerenciamento do sistema
+              </li>
+            </ul>
+          </div>
+          <div class="wrapper">
+            <h3>Elaboração de formulários de captação de ideias</h3>
+            <ul>
+              <li class="li">
+                Desenvolvimento de ambiente WEB para captação externa de ideias
+                (em conjunto com a equipe de TI)
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="wrapper">
-          <h3>Consultoria Pós-implantação</h3>
-          <ul>
-            <li class="li">
-              Treinamento de utilização do sistema para todos os colaboradores
-              da empresa e para as lideranças;
-            </li>
-            <li class="li">
-              Treinamento específico para o alto-escalão para cobranças e
-              acompanhamento de desempenho;
-            </li>
-            <li class="li">
-              Relatórios periódicos de desempenho com reuniões para discussão de
-              resultados;
-            </li>
-            <li class="li">
-              Treinamento da equipe do projeto para gerenciamento do sistema
-            </li>
-          </ul>
-        </div>
-        <div class="wrapper">
-          <h3>Elaboração de formulários de captação de ideias</h3>
-          <ul>
-            <li class="li">
-              Desenvolvimento de ambiente WEB para captação externa de ideias
-              (em conjunto com a equipe de TI)
-            </li>
-          </ul>
-        </div>
+        <label for="method_checkb" class="read-more-text">Ler Mais...</label>
       </div>
     </section>
 

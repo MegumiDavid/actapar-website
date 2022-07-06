@@ -20,7 +20,7 @@
     text-align: left;
     position: absolute;
     top: 35%;
-    border: .6rem solid #fff;
+    border: 0.6rem solid #fff;
   }
 }
 
@@ -73,7 +73,7 @@
     cursor: pointer;
     background-color: $green;
     color: $green;
-    
+
     & > * {
       color: #fff;
     }
@@ -85,8 +85,6 @@
     .circle {
       background-color: #fff;
     }
-
-
   }
   .container {
     // padding: 0rem 32rem;
@@ -150,6 +148,25 @@
     width: 90%;
     height: auto;
   }
+  #goal_checkb {
+    display: none;
+    &:checked ~ .goal_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Mostrar menos";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+  .goal_readmore {
+    display: none;
+    transition: 0.5s linear;
+  }
 }
 
 /////////////////////////////////////////////////////////////////
@@ -176,6 +193,26 @@
     width: 90%;
     height: auto;
   }
+
+  #how_checkb {
+    display: none;
+    &:checked ~ .how_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Mostrar menos";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+  .how_readmore {
+    display: none;
+    transition: 0.5s linear;
+  }
 }
 
 /////////////////////////////////////////////////////////////////
@@ -185,6 +222,25 @@
   .container {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+  #checkb {
+    display: none;
+    &:checked ~ .readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Mostrar menos";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+  .readmore {
+    display: none;
+    transition: 0.5s linear;
   }
 }
 
@@ -206,4 +262,33 @@
       margin-bottom: 0rem;
     }
   }
+
+  #method_checkb {
+    display: none;
+    &:checked ~ .method_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Mostrar menos";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+  .method_readmore {
+    display: none;
+    transition: 0.5s linear;
+  }
+}
+
+.read-more-text {
+  display: inline-block;
+  margin-top: 1rem;
+  color: $green;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
 }

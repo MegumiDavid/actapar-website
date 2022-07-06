@@ -96,8 +96,12 @@ ul {
 }
 
 .blog-link {
-  color: #81C54F;
+  color: #5D9732;
   text-decoration: underline;
+}
+.blog-link:hover {
+  color: #81C54F;
+  text-decoration: none;
 }
 
 .footer {
@@ -427,6 +431,10 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
+.contact-box .wrapper li a:hover {
+  color: #81C54F;
+  text-decoration: none;
+}
 
 .stripe {
   background-color: #5D9732;
@@ -668,6 +676,10 @@ textarea {
   cursor: pointer;
   text-decoration: underline;
   font-weight: 500;
+}
+.read-more-text:hover {
+  color: #81C54F;
+  text-decoration: none;
 }
 
 .header-lecture__content {

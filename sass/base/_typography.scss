@@ -73,6 +73,10 @@ ul {
 }
 
 .blog-link {
-  color: $green-highlight;
+  color: $green;
   text-decoration: underline;
+  &:hover {
+    color: $green-highlight;
+    text-decoration: none;
+  }
 }

@@ -291,4 +291,8 @@
   cursor: pointer;
   text-decoration: underline;
   font-weight: 500;
+  &:hover {
+    color: $green-highlight;
+    text-decoration: none;
+  }
 }

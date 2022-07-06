@@ -1,155 +1,250 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
-    <link rel="stylesheet" href="sass/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
+    <link rel="stylesheet" href="sass/main.css" />
 
     <title>Actapar - Contato</title>
-</head>
-<body>
+  </head>
+  <body class="contact-body">
     <nav class="nav">
-        <div class="container">
-          <div class="row">
-            <div class="col-1-of-2">
-              <a href="#"><img src="images/actapar-logo.svg" alt="#" class="nav__logo"></a>
-            </div>
-            <div class="col-1-of-2">
-              <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="technology.html" class="nav__link">Tecnologia</a></li>
-                <li class="nav__item"><a href="lecture.html" class="nav__link">Palestras</a></li>
-                <li class="nav__item"><a href="consultancy.html" class="nav__link">Consultoria</a></li>
-                <li class="nav__item"><a href="clients.html" class="nav__link">Clientes</a></li>
-                <li class="nav__item"><a href="contact.html" class="nav__link">Contanto</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    
-      <div class="stripe"></div>
-      <section class="mensage">
-       <!-- <div class="container" -->
+      <div class="container">
         <div class="row">
           <div class="col-1-of-2">
-            <h2 class="h2">Mande uma mensagem</h2>
+            <a href="#"
+              ><img src="images/actapar-logo.svg" alt="#" class="nav__logo"
+            /></a>
           </div>
-        
-      </section>
-      
-      <main>
-        <form class="form">
-          <label for="contact-name" class="name">Nome:</label>
-          <input type="text" id="contact-name" class="default-input" required placeholder="Seu Nome">
-          
-          <label for="contact-email" class="email">E-mail:</label>
-          <input type="email" id="contact-email" class="default-input" required placeholder="exemplo@email.com">
+          <div class="col-1-of-2">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="technology.html" class="nav__link">Tecnologia</a>
+              </li>
+              <li class="nav__item">
+                <a href="lecture.html" class="nav__link">Palestras</a>
+              </li>
+              <li class="nav__item">
+                <a href="consultancy.html" class="nav__link">Consultoria</a>
+              </li>
+              <li class="nav__item">
+                <a href="clients.html" class="nav__link">Clientes</a>
+              </li>
+              <li class="nav__item">
+                <a href="contact.html" class="nav__link">Contanto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-          <label for="contact-telephone" class="telephone">Telefone:</label>
-          <input type="tel" id="contact-telephone" class="default-input" placeholder="(xx) xxxx-xxxx">
+    <div class="stripe"></div>
+    <main class="main contact">
+      <div class="container">
+        <h1 class="mensage">Mande uma mensagem</h1>
+        <div class="row">
+          <div class="col-1-of-2">
+            <form class="form">
+              <label for="contact-name" class="name">Nome:</label>
+              <input
+                type="text"
+                id="contact-name"
+                class="default-input"
+                required
+                placeholder="Seu Nome"
+              />
 
-          <label for="contact-mensage-subject" class="subject">Assunto:</label>
-          <input type="text" id="contact-mensage-subject" class="default-input" required placeholder="assunto">
+              <label for="contact-email" class="email">E-mail:</label>
+              <input
+                type="email"
+                id="contact-email"
+                class="default-input"
+                required
+                placeholder="exemplo@email.com"
+              />
 
-          <label for="contact-mensage" class="text-mensage">Deixe sua mensagem aqui</label>
-          <textarea cols="70" rows="20" id="contac-mensage" class="default-input" placeholder="Sua Mensagem" required></textarea>
+              <label for="contact-telephone" class="telephone">Telefone:</label>
+              <input
+                type="tel"
+                id="contact-telephone"
+                class="default-input"
+                placeholder="(xx) xxxx-xxxx"
+              />
 
-          <input type="submit" value="Enviar" class="send-form">
-        </form>
+              <label for="contact-mensage-subject" class="subject"
+                >Assunto:</label
+              >
+              <input
+                type="text"
+                id="contact-mensage-subject"
+                class="default-input"
+                required
+                placeholder="assunto"
+              />
 
-        <div class="stripe"></div>
+              <label for="contact-mensage" class="text-mensage"
+                >Deixe sua mensagem aqui</label
+              >
+              <textarea
+                cols="70"
+                rows="6"
+                id="contac-mensage"
+                class="default-input"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
 
-        <iframe 
-          class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.700568747912!2d-46.64524948440593!3d-23.61506936946435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a45a381bd6f%3A0x14674b824cd6095b!2sR.%20Quinze%20de%20Setembro%2C%20174%20-%20Vila%20da%20Sa%C3%BAde%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004053-070!5e0!3m2!1spt-BR!2sbr!4v1657057080541!5m2!1spt-BR!2sbr" 
-          width="100%" height="500" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </main>
-      
+              <div class="enviar">
+                <input type="submit" value="Enviar" class="send-form"/>
+                <!-- <button class="send-form">Enviar</button> -->
+              </div>
+            </form>
+          </div>
+          <div class="col-1-of-2">
+            <div class="contact-box">
+              <h2>Onde nos encontrar</h2>
+
+              <div class="wrapper">
+                <h2>Endereço</h2>
+                <ul>
+                  <li>
+                    <a href="">Rua 15 de Setembro, 174, Saúde, São Paulo, SP</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="wrapper">
+                <h2>Contatos</h2>
+                <ul>
+                  <li>
+                    <a href="mailto:contato@actapar.com.br"
+                      >contato@actapar.com.br</a
+                    >
+                  </li>
+                  <li><a href="">+55 (11) 3819-0364</a></li>
+                </ul>
+              </div>
+
+              <div class="wrapper">
+                <div class="title-wrapper">
+                  <!-- <i class="contact-box__icon fa-brands fa-wordpress"></i> -->
+                  <h2>Blog do Professor</h2>
+                </div>
+                <ul>
+                  <li>
+                    <a href="">professorteixeira.com.br</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="stripe"></div>
-      <footer class="footer">
-        <div class="container">
-          <img
-            src="images/actapar-logo-white.svg"
-            alt="Actapar Logo"
-            class="footer__logo"
-          />
-          <div class="row">
-            <div class="col--1">
+      <div class="map-container">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.700568747912!2d-46.64524948440593!3d-23.61506936946435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a45a381bd6f%3A0x14674b824cd6095b!2sR.%20Quinze%20de%20Setembro%2C%20174%20-%20Vila%20da%20Sa%C3%BAde%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004053-070!5e0!3m2!1spt-BR!2sbr!4v1657057080541!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </main>
+
+    <div class="stripe"></div>
+    <footer class="footer">
+      <div class="container">
+        <img
+          src="images/actapar-logo-white.svg"
+          alt="Actapar Logo"
+          class="footer__logo"
+        />
+        <div class="row">
+          <div class="col--1">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-location-dot"></i>
+                <a href="#" class="footer__link"
+                  >Rua 15 de Setembro, 174, Saúde, São Paulo, SP</a
+                >
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-envelope"></i>
+                <a href="#" class="footer__link">contato@actapar.com.br</a>
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-phone"></i>
+                <a href="#" class="footer__link">+55 11 3819-0364</a>
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-brands fa-wordpress"></i>
+                <a href="#" class="footer__link">Blog do Professor</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col--wrapper">
+            <div class="col--2">
               <ul class="footer__list">
                 <li class="footer__item">
-                  <i class="footer__icon fa-solid fa-location-dot"></i>
-                  <a href="#" class="footer__link"
-                    >Rua 15 de Setembro, 174, Saúde, São Paulo, SP</a
-                  >
+                  <a href="#" class="footer__link">O QUE FAZEMOS</a>
                 </li>
                 <li class="footer__item">
-                  <i class="footer__icon fa-solid fa-envelope"></i>
-                  <a href="#" class="footer__link">contato@actapar.com.br</a>
+                  <a href="#" class="footer__link">QUEM SOMOS</a>
                 </li>
                 <li class="footer__item">
-                  <i class="footer__icon fa-solid fa-phone"></i>
-                  <a href="#" class="footer__link">+55 11 3819-0364</a>
+                  <a href="#" class="footer__link">COMO FAZEMOS</a>
                 </li>
                 <li class="footer__item">
-                  <i class="footer__icon fa-brands fa-wordpress"></i>
-                  <a href="#" class="footer__link">Blog do Professor</a>
+                  <a href="#" class="footer__link">METODOLOGIA</a>
                 </li>
               </ul>
             </div>
-            <div class="col--wrapper">
-              <div class="col--2">
-                <ul class="footer__list">
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">O QUE FAZEMOS</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">QUEM SOMOS</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">COMO FAZEMOS</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">METODOLOGIA</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col--3">
-                <ul class="footer__list">
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">CONSULTORIA</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">CLIENTES</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">PALESTRAS</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">TECNOLOGIA</a>
-                  </li>
-                  <li class="footer__item">
-                    <a href="#" class="footer__link">CONTATO</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="col--3">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">CONSULTORIA</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">CLIENTES</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">PALESTRAS</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">TECNOLOGIA</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">CONTATO</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="hr--wrapper">
-            <div class="hr"></div>
-          </div>
-          <p class="copyright">
-            © copyright 2015. actapar por david-productions. todos os direitos
-            reservados.
-          </p>
         </div>
-      </footer>
-    <script src="https://kit.fontawesome.com/8bc26bac35.js" crossorigin="anonymous"></script>
-</body>
+        <div class="hr--wrapper">
+          <div class="hr"></div>
+        </div>
+        <p class="copyright">
+          © copyright 2015. actapar por david-productions. todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/8bc26bac35.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

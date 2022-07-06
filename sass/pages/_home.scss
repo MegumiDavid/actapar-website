@@ -20,6 +20,7 @@
     text-align: left;
     position: absolute;
     top: 35%;
+    border: .6rem solid #fff;
   }
 }
 
@@ -44,6 +45,11 @@
   justify-content: space-between;
 
   margin-bottom: -20rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .card-home {
@@ -60,11 +66,36 @@
   background-color: #fff;
   text-align: center;
   flex-grow: 1;
+  transition: all 0.5s;
 
+  &:hover {
+    transform: translateY(-19.5rem) scale(1.03);
+    cursor: pointer;
+    background-color: $green;
+    color: $green;
+    
+    & > * {
+      color: #fff;
+    }
+
+    i {
+      color: $green;
+    }
+
+    .circle {
+      background-color: #fff;
+    }
+
+
+  }
   .container {
     // padding: 0rem 32rem;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 
   &__icon {
@@ -134,12 +165,6 @@
   .container {
     padding-top: 10rem;
     padding-bottom: 10rem;
-  }
-
-  &__list {
-  }
-
-  &__item {
   }
 
   &__img-wrapper {

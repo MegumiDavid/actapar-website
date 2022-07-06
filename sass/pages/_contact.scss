@@ -1,53 +1,149 @@
-.mensage{
-    text-align: center;
-    margin-top: 5rem;
-    margin-left: 30rem;
+.contactifo {
+  background-image: url("../../images/desktop/Group-79.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-form{
-    margin-left: 40rem;
+.mensage {
+  text-align: center;
+  font-weight: 500;
+  text-align: left;
+  font-size: 3.8rem;
+  color: $blue-dark;
+
+  margin-bottom: 3rem;
 }
 
-form label{
-    display: block;
-    margin: 1rem 0rem;
-    font-size: 3rem;
+.msg-align {
+  width: 46%;
+  text-align: center;
 }
 
+form label {
+  display: block;
+  margin: 0.8rem 0rem;
+  font-size: 2.8rem;
+}
 
 .default-input {
-    display: block;
-    margin: 0 0 2rem;
-    padding: 1rem 2.5rem;
-    width: 40%;
+  display: block;
+  margin: 0 0 2rem;
+  padding: 1rem 2.5rem;
+  width: 100%;
+}
+
+.text-mensage.default-input {
+  height: 25%;
 }
 
 ::placeholder {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.name,.email,.telephone,.subject,.text-mensage {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: $blue-dark;
+.name,
+.email,
+.telephone,
+.subject,
+.text-mensage {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: $blue-dark;
 }
 
 textarea {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.send-form {
-    width: 15%;
+.enviar {
+  text-align: center;
+  .send-form {
+    width: 27%;
     padding: 1em 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 550;
     background-color: $green-highlight;
     color: $light-gray;
-    border: none;
-    border-radius: 0.5rem;
+    /* border: 2px solid $blue-dark; */
+    border: 0.3rem solid $green-highlight;
+    border-radius: 0.8rem;
     cursor: pointer;
+    margin-top: 2rem;
     margin-bottom: 4rem;
-    margin-left: 12em;
+    transition: all 200ms;
+
+    &:hover {
+      background-color: $light-gray;
+      border: 0.3rem solid $green;
+      color: $green;
+    }
+    /* float: left; */
+  }
 }
 
+.contact {
+  .row {
+    align-items: flex-start;
+  }
+
+  .col-1-of-2 {
+    width: 46.5%;
+  }
+}
+
+.contact-box {
+  background-color: $blue-dark;
+  color: #fff;
+  padding: 8rem;
+
+  width: 94.5%;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    background-color: $green;
+    width: 100%;
+    height: 100%;
+    top: 2rem;
+    left: 2.2rem;
+    z-index: -1;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  .wrapper {
+    margin-bottom: 2.8rem;
+    h2 {
+      margin-bottom: 1.2rem;
+      font-size: 2.8rem;
+    }
+    li {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+
+      a {
+        text-decoration: underline;
+        color: #fff;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.6rem;
+      }
+    }
+
+    /*     .title-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__icon {
+    font-size: 3.5rem;
+    margin-right: 1.5rem;
+    transform: translateY(-.4rem);
+  } */
+  }
+}

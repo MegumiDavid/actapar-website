@@ -281,27 +281,42 @@ ul {
   color: #fff;
 }
 
-.mensage {
-  text-align: center;
-  margin-top: 5rem;
-  margin-left: 30rem;
+.contactifo {
+  background-image: url("../../images/desktop/Group-79.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-form {
-  margin-left: 40rem;
+.mensage {
+  text-align: center;
+  font-weight: 500;
+  text-align: left;
+  font-size: 3.8rem;
+  color: #093E52;
+  margin-bottom: 3rem;
+}
+
+.msg-align {
+  width: 46%;
+  text-align: center;
 }
 
 form label {
   display: block;
-  margin: 1rem 0rem;
-  font-size: 3rem;
+  margin: 0.8rem 0rem;
+  font-size: 2.8rem;
 }
 
 .default-input {
   display: block;
   margin: 0 0 2rem;
   padding: 1rem 2.5rem;
-  width: 40%;
+  width: 100%;
+}
+
+.text-mensage.default-input {
+  height: 25%;
 }
 
 ::-moz-placeholder {
@@ -316,7 +331,11 @@ form label {
   font-family: "Roboto", sans-serif;
 }
 
-.name, .email, .telephone, .subject, .text-mensage {
+.name,
+.email,
+.telephone,
+.subject,
+.text-mensage {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #093E52;
@@ -326,19 +345,87 @@ textarea {
   font-family: "Roboto", sans-serif;
 }
 
-.send-form {
-  width: 15%;
+.enviar {
+  text-align: center;
+}
+.enviar .send-form {
+  width: 27%;
   padding: 1em 0;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 550;
   background-color: #81C54F;
   color: #FCFAFA;
-  border: none;
-  border-radius: 0.5rem;
+  /* border: 2px solid $blue-dark; */
+  border: 0.3rem solid #81C54F;
+  border-radius: 0.8rem;
   cursor: pointer;
+  margin-top: 2rem;
   margin-bottom: 4rem;
-  margin-left: 12em;
+  transition: all 200ms;
+  /* float: left; */
+}
+.enviar .send-form:hover {
+  background-color: #FCFAFA;
+  border: 0.3rem solid #5D9732;
+  color: #5D9732;
+}
+
+.contact .row {
+  align-items: flex-start;
+}
+.contact .col-1-of-2 {
+  width: 46.5%;
+}
+
+.contact-box {
+  background-color: #093E52;
+  color: #fff;
+  padding: 8rem;
+  width: 94.5%;
+  position: relative;
+}
+.contact-box::after {
+  position: absolute;
+  content: "";
+  background-color: #5D9732;
+  width: 100%;
+  height: 100%;
+  top: 2rem;
+  left: 2.2rem;
+  z-index: -1;
+}
+.contact-box h2 {
+  color: #fff;
+}
+.contact-box .wrapper {
+  margin-bottom: 2.8rem;
+  /*     .title-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__icon {
+    font-size: 3.5rem;
+    margin-right: 1.5rem;
+    transform: translateY(-.4rem);
+  } */
+}
+.contact-box .wrapper h2 {
+  margin-bottom: 1.2rem;
+  font-size: 2.8rem;
+}
+.contact-box .wrapper li {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.contact-box .wrapper li a {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
 }
 
 .stripe {
@@ -360,6 +447,7 @@ textarea {
   text-align: left;
   position: absolute;
   top: 35%;
+  border: 0.6rem solid #fff;
 }
 
 .circle {
@@ -380,6 +468,10 @@ textarea {
   justify-content: space-between;
   margin-bottom: -20rem;
 }
+.cards-home a {
+  text-decoration: none;
+  color: black;
+}
 
 .card-home {
   border-radius: 0.5rem;
@@ -395,10 +487,29 @@ textarea {
   background-color: #fff;
   text-align: center;
   flex-grow: 1;
+  transition: all 0.5s;
+}
+.card-home:hover {
+  transform: translateY(-19.5rem) scale(1.03);
+  cursor: pointer;
+  background-color: #5D9732;
+  color: #5D9732;
+}
+.card-home:hover > * {
+  color: #fff;
+}
+.card-home:hover i {
+  color: #5D9732;
+}
+.card-home:hover .circle {
+  background-color: #fff;
 }
 .card-home .container {
   padding-top: 0;
   padding-bottom: 0;
+}
+.card-home h3 {
+  font-size: 2rem;
 }
 .card-home__icon {
   color: #fff;
@@ -479,7 +590,7 @@ textarea {
 }
 
 .header-lecture__content {
-  height: 90rem;
+  height: 64rem;
   background-image: url("../../images/desktop/header-lecture.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -493,20 +604,25 @@ textarea {
   position: absolute;
   top: 35%;
 }
-.header-lecture__text .desc {
-  font-size: 2.2rem;
-  font-family: "Poppins";
-  font-weight: 400;
+.header-lecture .desc {
   color: #fff;
-  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+  top: 35%;
 }
 
 .our-lecture .container {
-  padding-top: 12.5rem;
-  padding-bottom: 12.5rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
 }
 .our-lecture__img {
   margin-top: 10rem;
   height: auto;
   width: 100%;
+}
+
+.lecture .footer {
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

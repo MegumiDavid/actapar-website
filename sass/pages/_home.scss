@@ -278,21 +278,9 @@
       }
     }
   }
+
   .method_readmore {
     display: none;
     transition: 0.5s linear;
-  }
-}
-
-.read-more-text {
-  display: inline-block;
-  margin-top: 1rem;
-  color: $green;
-  cursor: pointer;
-  text-decoration: underline;
-  font-weight: 500;
-  &:hover {
-    color: $green-highlight;
-    text-decoration: none;
   }
 }

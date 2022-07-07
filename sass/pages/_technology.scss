@@ -1,0 +1,87 @@
+.header-tech {
+  &__content {
+    height: 64rem;
+    background-image: url("../../images/desktop/header-technology.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  &__text {
+    // max-width: 40%;
+    max-width: 68.9rem;
+    padding: 4rem;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+  }
+
+  .desc {
+    // max-width: 40%;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+    /*     position: absolute;*/
+    top: 35%;
+  }
+}
+
+.our-tech {
+  .container {
+    padding-top: 11rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.card-section {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cards-tech {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 4rem;
+
+    ul {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 3rem;
+      color: #fff;
+    }
+  }
+
+  .card-tech {
+    margin: 0;
+    width: 58rem;
+    height: 35rem;
+    padding: 3rem 5rem;
+    box-shadow: (8px 8px 12px rgba(0, 0, 0, 0.25));
+    text-align: center;
+
+    &--1 {
+      background-color: $green-light;
+    }
+    &--2 {
+      background-color: $green-light;
+    }
+    &--3 {
+      background-color: $blue-light;
+    }
+    &--4 {
+      background-color: $blue-light;
+    }
+  }
+}

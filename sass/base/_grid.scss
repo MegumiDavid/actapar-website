@@ -1,20 +1,42 @@
 .container {
-  max-width: 1920px;
+  max-width: 1520px;
   margin: 0 auto;
-  padding: 5rem 34rem;
+  padding: 5rem 15rem;
+  
+  @media only screen and (max-width: 1450px) {
+    padding: 5rem 10rem;
+  }
+  @media only screen and (max-width: 1130px) {
+    padding: 5rem 4em;
+  }
 
+    @media only screen and (max-width: 750px) {
+    padding: 5% 10%;
+  }
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  @media only screen and (max-width: $main-bp) {
+    flex-direction: column;
+  }
 }
 
 .row-reverse {
     flex-direction: row-reverse;
+    
+    @media only screen and (max-width: $main-bp) {
+      flex-direction: column;
+    }
 }
 
 .col-1-of-2 {
   width: 48%;
+
+  @media only screen and (max-width: $main-bp) {
+    width: 100%;
+  }
 }

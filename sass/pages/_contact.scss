@@ -53,6 +53,7 @@ form label {
 
 textarea {
   font-family: "Roboto", sans-serif;
+  resize: none;
 }
 
 .enviar {
@@ -113,6 +114,7 @@ textarea {
 
   h2 {
     color: #fff;
+    text-align: left;
   }
 
   .wrapper {
@@ -139,6 +141,8 @@ textarea {
       }
     }
 
+   
+    
     /*     .title-wrapper {
       display: flex;
       align-items: center;

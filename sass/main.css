@@ -44,7 +44,12 @@ html {
 }
 @media only screen and (max-width: 750px) {
   .container {
-    padding: 5% 10%;
+    padding: 4% 8%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 1% 5%;
   }
 }
 
@@ -249,9 +254,6 @@ ul {
     margin-top: 2rem;
     display: none;
   }
-}
-.col--1 {
-  /**/
 }
 .col--3 {
   margin-left: 7rem;
@@ -614,12 +616,17 @@ textarea {
 }
 
 .header__content {
-  height: 64rem;
+  height: 58rem;
   background-image: url("../../images/desktop/header-home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+@media only screen and (max-width: 450px) {
+  .header__content {
+    height: 50vh;
+  }
 }
 .header__text {
   max-width: 68.9rem;
@@ -646,6 +653,19 @@ textarea {
     font-size: 3rem;
   }
 }
+@media only screen and (max-width: 450px) {
+  .header__text {
+    top: 20%;
+  }
+  .header__text h1 {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header__text {
+    top: 15%;
+  }
+}
 
 .circle {
   display: flex;
@@ -663,6 +683,13 @@ textarea {
     margin-bottom: 1rem;
   }
 }
+@media only screen and (max-width: 450px) {
+  .circle {
+    width: 7vh;
+    height: 7vh;
+    gap: 1%;
+  }
+}
 
 .cards-home {
   display: flex;
@@ -675,9 +702,14 @@ textarea {
   text-decoration: none;
   color: black;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .cards-home {
     gap: 2%;
+  }
+}
+@media only screen and (max-width: 319px) {
+  .cards-home {
+    display: none;
   }
 }
 
@@ -697,17 +729,17 @@ textarea {
   flex-grow: 1;
   transition: all 0.5s;
   /*   &--1 {
-      margin-right: 3rem;
-    }
-    &--2 {
-      margin-right: 3rem;
-    }
-    &--3 {
-      margin-right: 3rem;
-    }
-    &--4 {
-      margin-right: 0rem;
-    } */
+    margin-right: 3rem;
+  }
+  &--2 {
+    margin-right: 3rem;
+  }
+  &--3 {
+    margin-right: 3rem;
+  }
+  &--4 {
+    margin-right: 0rem;
+  } */
 }
 @media only screen and (min-width: 1700px) {
   .card-home {
@@ -717,6 +749,7 @@ textarea {
 @media only screen and (max-width: 950px) {
   .card-home {
     min-width: 22%;
+    margin-top: 2rem;
   }
   .card-home p {
     display: none;
@@ -725,10 +758,28 @@ textarea {
 @media only screen and (max-width: 800px) {
   .card-home {
     min-width: 5%;
+    height: 5%;
     margin-top: 10%;
   }
   .card-home h3 {
     display: none;
+  }
+}
+@media only screen and (max-width: 800px) and (max-width: 600px) {
+  .card-home {
+    margin-top: 15%;
+  }
+}
+@media only screen and (max-width: 800px) and (max-width: 450px) {
+  .card-home {
+    margin-top: 22%;
+  }
+}
+@media only screen and (max-width: 800px) and (max-width: 400px) {
+  .card-home {
+    margin-top: 30%;
+    min-width: 2%;
+    height: 2%;
   }
 }
 .card-home:hover {

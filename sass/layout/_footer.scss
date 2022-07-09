@@ -40,18 +40,17 @@
 
   &__logo {
     filter: brightness(0) invert(1);
-    width: 15rem;
+    width: 12.5rem;
     height: 100%;
 
     @media only screen and (max-width: 700px) {
       margin-top: 2rem;
-      width: 14rem;
+
     }
-    @media only screen and (max-width: 600px) {
-      width: 12.5rem;
-      /* margin: 0 auto;
-      display: flex; */
+    @media only screen and (max-width: 500px) {
+      width: 11rem;
     }
+
   }
 
   &__list {

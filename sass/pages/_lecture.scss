@@ -11,10 +11,15 @@
   &__text {
     // max-width: 40%;
     max-width: 68.9rem;
-    padding: 4rem;
+    padding: 4rem 0rem;
     text-align: left;
     position: absolute;
     top: 35%;
+    
+    @media only screen and (max-width: 500px) {
+      top: 30%;
+      max-width: 90%;
+    }
   }
 
   .desc {
@@ -33,12 +38,13 @@
     padding-bottom: 11rem;
   }
 
-  &__text {
+  /* &__text {
     h2 {
+
     }
     p {
     }
-  }
+  } */
 
   &__img {
     margin-top: 10rem;

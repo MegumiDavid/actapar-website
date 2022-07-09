@@ -15,6 +15,14 @@
     text-align: left;
     position: absolute;
     top: 35%;
+
+    @media only screen and (max-width: 500px) {
+      top: 28.5%;
+    }
+
+    @media only screen and (max-width: 450px) {
+      top: 26.5%;
+    }
   }
 
   &__p-header {
@@ -72,6 +80,9 @@
   }
   .p {
     color: #fff;
+  }
+  .mb {
+    margin-bottom: 8rem;
   }
 }
 

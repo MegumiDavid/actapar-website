@@ -91,6 +91,10 @@ textarea {
   .col-1-of-2 {
     width: 46.5%;
   }
+
+  @media only screen and (max-width: $main-bp) {
+    width: 100%;
+  }
 }
 
 .contact-box {

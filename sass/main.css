@@ -655,6 +655,11 @@ textarea {
 .contact .col-1-of-2 {
   width: 46.5%;
 }
+@media only screen and (max-width: 950px) {
+  .contact {
+    width: 100%;
+  }
+}
 
 .contact-box {
   background-color: #093E52;

@@ -1058,6 +1058,11 @@ textarea {
   background-size: cover;
   position: relative;
 }
+@media only screen and (max-width: 500px) {
+  .header-lecture__content .container {
+    padding: 0 5rem;
+  }
+}
 .header-lecture__text {
   max-width: 68.9rem;
   padding: 4rem 0rem;
@@ -1068,7 +1073,7 @@ textarea {
 @media only screen and (max-width: 500px) {
   .header-lecture__text {
     top: 30%;
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 .header-lecture .desc {
@@ -1097,6 +1102,12 @@ textarea {
   .our-lecture .container {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .our-lecture .container {
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 }
 .our-lecture__img {

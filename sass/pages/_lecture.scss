@@ -6,6 +6,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    @media only screen and (max-width: 500px) {
+        .container {
+          padding: 0 5rem;
+      }
+    }
   }
 
   &__text {
@@ -18,7 +24,7 @@
     
     @media only screen and (max-width: 500px) {
       top: 30%;
-      max-width: 90%;
+      max-width: 80%;
     }
   }
 
@@ -41,6 +47,11 @@
       padding-top:    8rem;
       padding-bottom: 8rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        padding-right: 5rem;
+        padding-left:  5rem;
+  }
   }
 
   /* &__text {

@@ -1,10 +1,3 @@
-.contactifo {
-  background-image: url("../../images/desktop/Group-79.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .mensage {
   text-align: center;
   font-weight: 500;
@@ -13,6 +6,11 @@
   color: $blue-dark;
 
   margin-bottom: 3rem;
+
+  @media only screen and (max-width: $main-bp) {
+    font-size: 180%;
+    margin-top: 3vh;
+  }
 }
 
 .msg-align {
@@ -90,10 +88,10 @@ textarea {
 
   .col-1-of-2 {
     width: 46.5%;
-  }
 
-  @media only screen and (max-width: $main-bp) {
-    width: 100%;
+    @media only screen and (max-width: $main-bp) {
+      width: 100%;
+    }
   }
 }
 
@@ -104,6 +102,11 @@ textarea {
 
   width: 94.5%;
   position: relative;
+
+  @media only screen and (max-width: $main-bp) {
+    margin-bottom: 8%;
+    padding: 8%;
+  }
 
   &::after {
     position: absolute;
@@ -145,8 +148,6 @@ textarea {
       }
     }
 
-   
-    
     /*     .title-wrapper {
       display: flex;
       align-items: center;
@@ -158,5 +159,11 @@ textarea {
     margin-right: 1.5rem;
     transform: translateY(-.4rem);
   } */
+  }
+}
+
+.map-container {
+  iframe {
+    display: block;
   }
 }

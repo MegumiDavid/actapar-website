@@ -558,13 +558,6 @@ ul {
   color: #fff;
 }
 
-.contactifo {
-  background-image: url("../../images/desktop/Group-79.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .mensage {
   text-align: center;
   font-weight: 500;
@@ -572,6 +565,12 @@ ul {
   font-size: 3.8rem;
   color: #093E52;
   margin-bottom: 3rem;
+}
+@media only screen and (max-width: 950px) {
+  .mensage {
+    font-size: 180%;
+    margin-top: 3vh;
+  }
 }
 
 .msg-align {
@@ -656,7 +655,7 @@ textarea {
   width: 46.5%;
 }
 @media only screen and (max-width: 950px) {
-  .contact {
+  .contact .col-1-of-2 {
     width: 100%;
   }
 }
@@ -667,6 +666,12 @@ textarea {
   padding: 8rem;
   width: 94.5%;
   position: relative;
+}
+@media only screen and (max-width: 950px) {
+  .contact-box {
+    margin-bottom: 8%;
+    padding: 8%;
+  }
 }
 .contact-box::after {
   position: absolute;
@@ -714,6 +719,10 @@ textarea {
 .contact-box .wrapper li a:hover {
   color: #81C54F;
   text-decoration: none;
+}
+
+.map-container iframe {
+  display: block;
 }
 
 .stripe {

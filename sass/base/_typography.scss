@@ -26,6 +26,10 @@ h2 {
   font-size: 3.5rem;
   color: $blue-dark;
   margin-bottom: 4rem;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 3.2rem;
+  }
 }
 
 h3 {

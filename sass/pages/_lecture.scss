@@ -36,6 +36,11 @@
   .container {
     padding-top: 11rem;
     padding-bottom: 11rem;
+    
+    @media only screen and (max-width: 700px) {
+      padding-top:    8rem;
+      padding-bottom: 8rem;
+    }
   }
 
   /* &__text {
@@ -47,9 +52,13 @@
   } */
 
   &__img {
-    margin-top: 10rem;
+    margin-top: 5rem;
     height: auto;
     width: 100%;
+    
+    @media only screen and (max-width: 700px) {
+      margin-top: 2.5rem;
+  }
   }
 }
 

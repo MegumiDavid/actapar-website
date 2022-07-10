@@ -110,6 +110,11 @@ h2 {
   color: #093E52;
   margin-bottom: 4rem;
 }
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 3.2rem;
+  }
+}
 
 h3 {
   font-family: "Poppins", sans-serif;
@@ -1088,10 +1093,21 @@ textarea {
   padding-top: 11rem;
   padding-bottom: 11rem;
 }
+@media only screen and (max-width: 700px) {
+  .our-lecture .container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
 .our-lecture__img {
-  margin-top: 10rem;
+  margin-top: 5rem;
   height: auto;
   width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .our-lecture__img {
+    margin-top: 2.5rem;
+  }
 }
 
 .lecture .footer {
@@ -1113,6 +1129,11 @@ textarea {
   position: absolute;
   top: 35%;
 }
+@media only screen and (max-width: 500px) {
+  .header-tech__text {
+    top: 28.5%;
+  }
+}
 .header-tech .desc {
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -1133,14 +1154,25 @@ textarea {
   flex-direction: row;
 }
 .card-section .cards-tech {
-  margin: 0;
-  display: flex;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 40rem);
+  grid-gap: 5rem;
+  margin-bottom: 5rem;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  gap: 4rem;
+  gap: 4rem; */
+}
+@media only screen and (max-width: 950px) {
+  .card-section .cards-tech {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 40rem);
+  }
 }
 .card-section .cards-tech ul {
   text-decoration: none;
@@ -1152,8 +1184,8 @@ textarea {
 }
 .card-section .card-tech {
   margin: 0;
-  width: 58rem;
-  height: 35rem;
+  /* width: 58rem; */
+  /* height: 35rem; */
   padding: 3rem 5rem;
   box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
   text-align: center;

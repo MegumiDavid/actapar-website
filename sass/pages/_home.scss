@@ -14,7 +14,6 @@
     @media only screen and (max-width: 450px) {
       height: 50vh;
     }
-
   }
 
   &__text {
@@ -50,7 +49,7 @@
         font-size: 150%;
       }
     }
-      @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 400px) {
       top: 15%;
     }
   }
@@ -74,12 +73,11 @@
     margin-bottom: 1rem;
   }
 
-  @media only screen and (max-width: 450px) {
+  /*   @media only screen and (max-width: 450px) {
     width: 7vh;
     height: 7vh;
     gap: 1%;
-  }
-
+  } */
 }
 
 .cards-home {
@@ -98,7 +96,7 @@
     gap: 2%;
   }
 
-    @media only screen and (max-width: 319px) {
+  @media only screen and (max-width: 319px) {
     display: none;
   }
 }
@@ -109,9 +107,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  // padding: 1.5rem 1.5rem;
-  // width: 22.5%;
-  width: max-content;
+  width: 5rem;
   box-shadow: (-1px 7px 12px rgba(0, 0, 0, 0.25));
   transform: translateY(-18rem);
   background-color: #fff;
@@ -121,14 +117,20 @@
 
   @media only screen and (min-width: 1700px) {
     padding: 2.5rem 2rem;
+    width: 22.5%;
   }
 
-  @media only screen and (max-width: $main-bp) {
+  @media only screen and (max-width: 1000px) {
     min-width: 22%;
     margin-top: 2rem;
     p {
       display: none;
     }
+  }
+
+  @media only screen and (max-width: $main-bp) {
+    min-width: 22%;
+    margin-top: 2rem;
   }
 
   @media only screen and (max-width: 800px) {
@@ -138,20 +140,20 @@
     h3 {
       display: none;
     }
-  
+
     @media only screen and (max-width: 600px) {
       margin-top: 15%;
-    } 
- 
+    }
+
     @media only screen and (max-width: 450px) {
       margin-top: 22%;
-    } 
-    
+    }
+
     @media only screen and (max-width: 400px) {
       margin-top: 30%;
       min-width: 2%;
       height: 2%;
-    } 
+    }
   }
 
   &:hover {

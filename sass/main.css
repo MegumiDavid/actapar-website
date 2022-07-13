@@ -441,6 +441,80 @@ ul {
   }
 }
 
+.lang__change {
+  border: none;
+  background-color: #FCFAFA;
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+.lang__flexbox {
+  display: flex;
+  align-items: center;
+}
+.lang__icon {
+  font-size: 1rem;
+}
+.lang__img {
+  width: 2.5rem;
+  height: auto;
+  margin-right: 1rem;
+}
+.lang__menu {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  top: 4rem;
+  right: 0rem;
+  background-color: #5D9732;
+  padding: 2.5rem;
+  opacity: 0;
+  transform: translateY(-8%);
+  transition: all 300ms;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem 0.5rem;
+}
+.lang__menu desc {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.lang__btn {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.lang__btn:hover {
+  background-color: #093E52;
+  transition: all 100ms;
+}
+.lang__btn:hover p {
+  color: #fff;
+}
+.lang__btn-img {
+  width: 2.5rem;
+  height: auto;
+  margin-right: 1rem;
+}
+.lang__btn p {
+  color: #093E52;
+  margin-bottom: 0;
+}
+
+.nav__lang {
+  position: relative;
+}
+
+.hidden-text {
+  display: none;
+}
+
 .header-consultancy__content {
   height: 64rem;
   background-image: url("../../images/desktop/header-consultancy.png");

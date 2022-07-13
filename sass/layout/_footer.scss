@@ -132,9 +132,14 @@
   color: #fff;
   line-height: 1.5;
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 750px) {
     margin-bottom: 0em;
     margin-top: -1rem;
     text-align: center;
+    // padding-bottom: 1rem;
+  }
+  @media only screen and (max-width: 450px) {
+    padding-bottom: .5rem;
   }
 }
+

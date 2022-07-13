@@ -36,6 +36,9 @@ html {
   max-width: 1520px;
   margin: 0 auto;
   padding: 5rem 15rem;
+  /* @media only screen and (max-width: 400px) {
+    padding: 1% 5%;
+  } */
 }
 @media only screen and (max-width: 1450px) {
   .container {
@@ -52,9 +55,9 @@ html {
     padding: 4% 8%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .container {
-    padding: 1% 5%;
+    padding: 8% 8%;
   }
 }
 
@@ -306,11 +309,16 @@ ul {
   color: #fff;
   line-height: 1.5;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   .copyright {
     margin-bottom: 0em;
     margin-top: -1rem;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .copyright {
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -379,7 +387,7 @@ ul {
   width: 26px;
   height: 2px;
   background-color: black;
-  transition: all 550ms center;
+  transition: all 100ms center;
   transform-origin: 3px 1px;
   border-radius: 5px;
   transition: all 300ms;
@@ -403,8 +411,9 @@ ul {
   top: 100%;
   background-color: #5D9732;
   width: 100%;
+  visibility: hidden;
   opacity: 0;
-  transition: all 400ms;
+  transition: all 100ms linear;
   transform: translate(0, -2.5%);
   box-shadow: -1px 7px 12px rgba(0, 0, 0, 0.01);
 }
@@ -426,6 +435,7 @@ ul {
 }
 .nav .menu.open-menu {
   transform: translate(0, 0);
+  visibility: visible;
   opacity: 1;
 }
 
@@ -468,9 +478,10 @@ ul {
   right: 0rem;
   background-color: #5D9732;
   padding: 2.5rem;
+  visibility: hidden;
   opacity: 0;
   transform: translateY(-8%);
-  transition: all 300ms;
+  transition: all 100ms linear;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem 0.5rem;
@@ -505,6 +516,12 @@ ul {
 .lang__btn p {
   color: #093E52;
   margin-bottom: 0;
+}
+
+.lang-menu-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0.5%);
 }
 
 .nav__lang {
@@ -725,10 +742,15 @@ textarea {
 .contact .row {
   align-items: flex-start;
 }
+@media only screen and (max-width: 1030px) {
+  .contact .row {
+    flex-direction: column;
+  }
+}
 .contact .col-1-of-2 {
   width: 46.5%;
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1030px) {
   .contact .col-1-of-2 {
     width: 100%;
   }
@@ -741,9 +763,10 @@ textarea {
   width: 94.5%;
   position: relative;
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1030px) {
   .contact-box {
     margin-bottom: 8%;
+    margin-top: 4%;
     padding: 8%;
   }
 }
@@ -760,6 +783,7 @@ textarea {
 .contact-box h2 {
   color: #fff;
   text-align: left;
+  font-size: 2.8rem;
 }
 .contact-box .wrapper {
   margin-bottom: 2.8rem;
@@ -777,10 +801,9 @@ textarea {
 }
 .contact-box .wrapper h2 {
   margin-bottom: 1.2rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 .contact-box .wrapper li {
-  margin-left: 2rem;
   margin-bottom: 1rem;
 }
 .contact-box .wrapper li a {
@@ -1188,17 +1211,15 @@ textarea {
 .our-lecture .container {
   padding-top: 11rem;
   padding-bottom: 11rem;
+  /* @media only screen and (max-width: 500px) {
+        padding-right: 5rem;
+        padding-left:  5rem;
+  } */
 }
 @media only screen and (max-width: 700px) {
   .our-lecture .container {
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .our-lecture .container {
-    padding-right: 5rem;
-    padding-left: 5rem;
   }
 }
 .our-lecture__img {

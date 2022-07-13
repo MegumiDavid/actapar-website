@@ -71,7 +71,7 @@
         width: 26px;
         height: 2px;
         background-color: black;
-        transition: all 550ms center;
+        transition: all 100ms center;
         transform-origin: 3px 1px;
         border-radius: 5px;
 
@@ -101,8 +101,11 @@
     top: 100%;
     background-color: $green;
     width: 100%;
+    visibility: hidden;
     opacity: 0;
-    transition: all 400ms ;
+    // transition: all 300ms;
+    transition: all 100ms linear;
+
     transform: translate(0, -2.5%);
     box-shadow: (-1px 7px 12px rgba(0, 0, 0, 0.01));
 
@@ -131,6 +134,7 @@
 
     &.open-menu {
         transform: translate(0, 0);
+        visibility: visible;
         opacity: 1;
     }
   }
@@ -180,10 +184,11 @@
   
     background-color: $green;
     padding: 2.5rem;
+    visibility: hidden;
     opacity: 0;
     transform: translateY(-8%);
   
-    transition: all 300ms;
+    transition: all 100ms linear;
 
     display: flex;
     flex-direction: column;
@@ -227,6 +232,12 @@
       margin-bottom: 0;
     }
   }
+}
+
+.lang-menu-open {
+  opacity : 1;
+  visibility : visible;
+  transform : translateY(0.5%);
 }
 
 .nav__lang {

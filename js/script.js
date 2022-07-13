@@ -17,15 +17,13 @@ const langIcon = document.querySelector('.lang__icon')
 let clickCounter = 0
 
 function showLangMenu() {
-    langMenu.style.opacity = 1
-    langMenu.style.transform = 'translateY(.5%)'
+    langMenu.classList.add('lang-menu-open')
     langIcon.classList.add('fa-chevron-up')    
     clickCounter++
 }
 
 function hideLangMenu() {
-    langMenu.style.opacity = 0
-    langMenu.style.transform = 'translateY(-8%)'
+    langMenu.classList.remove('lang-menu-open')
     langIcon.classList.remove('fa-chevron-up')    
     clickCounter++
 }

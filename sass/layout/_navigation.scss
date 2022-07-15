@@ -247,3 +247,14 @@
 .hidden-text {
   display: none;
 }
+
+.menu.lang__menu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+  display: block;
+}
+
+.hidden-change-lang-mobile {
+  display: none;
+}

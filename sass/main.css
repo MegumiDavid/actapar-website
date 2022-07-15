@@ -532,6 +532,17 @@ ul {
   display: none;
 }
 
+.menu.lang__menu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+  display: block;
+}
+
+.hidden-change-lang-mobile {
+  display: none;
+}
+
 .header-consultancy__content {
   height: 64rem;
   background-image: url("../../images/desktop/header-consultancy.png");

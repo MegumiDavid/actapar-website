@@ -8,6 +8,11 @@ btnHamburger.addEventListener("click", (e) => {
   menu.classList.toggle("open-menu");
 });
 
+if( document.documentElement.getAttribute("lang") === 'en' ) {
+  // Redirect to En page
+  console.log('ENGLISH');
+}
+
 // Change Language
 // - Menu showing and hiding
 const btnChangeLang = document.querySelector("#changeLangBtn");
@@ -35,8 +40,11 @@ btnChangeLang.addEventListener("click", () => {
   }
 });
 
+
+
+
 // - Changing language
-const changeLangPt = document.querySelector("#change-lang-pt");
+/* const changeLangPt = document.querySelector("#change-lang-pt");
 const changeLangEn = document.querySelector("#change-lang-en");
 const enText = document.querySelectorAll(".en-text");
 const ptText = document.querySelectorAll(".pt-text");
@@ -76,3 +84,4 @@ changeLangPt.addEventListener("click", () => {
   translateToPt();
   hideLangMenu();
 });
+ */

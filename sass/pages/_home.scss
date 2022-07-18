@@ -233,6 +233,7 @@
       margin-top: 6rem;
     }
   }
+
   #goal_checkb {
     display: none;
     &:checked ~ .goal_readmore {
@@ -248,9 +249,26 @@
       }
     }
   }
+
   .goal_readmore {
     display: none;
     transition: 0.5s linear;
+  }
+
+  #goal_checkben {
+    display: none;
+    &:checked ~ .goal_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Show less";
+        display: block;
+        visibility: visible;
+      }
+    }
   }
 }
 
@@ -300,6 +318,22 @@
       }
     }
   }
+
+  #how_checkben {
+    display: none;
+    &:checked ~ .how_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Show Less";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
   .how_readmore {
     display: none;
     transition: 0.5s linear;
@@ -329,6 +363,23 @@
       }
     }
   }
+
+  #checkben {
+    display: none;
+    &:checked ~ .readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Show less";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+
   .readmore {
     display: none;
     transition: 0.5s linear;
@@ -364,6 +415,22 @@
 
       &:after {
         content: "Mostrar menos";
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+
+  #method_checkben {
+    display: none;
+    &:checked ~ .method_readmore {
+      display: block;
+    }
+    &:checked ~ .read-more-text {
+      visibility: hidden;
+
+      &:after {
+        content: "Show less";
         display: block;
         visibility: visible;
       }

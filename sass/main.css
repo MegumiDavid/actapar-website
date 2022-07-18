@@ -1075,6 +1075,20 @@ textarea {
   display: none;
   transition: 0.5s linear;
 }
+.goal #goal_checkben {
+  display: none;
+}
+.goal #goal_checkben:checked ~ .goal_readmore {
+  display: block;
+}
+.goal #goal_checkben:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.goal #goal_checkben:checked ~ .read-more-text:after {
+  content: "Show less";
+  display: block;
+  visibility: visible;
+}
 
 .how {
   background-color: #FCFAFA;
@@ -1115,6 +1129,20 @@ textarea {
   display: block;
   visibility: visible;
 }
+.how #how_checkben {
+  display: none;
+}
+.how #how_checkben:checked ~ .how_readmore {
+  display: block;
+}
+.how #how_checkben:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.how #how_checkben:checked ~ .read-more-text:after {
+  content: "Show Less";
+  display: block;
+  visibility: visible;
+}
 .how .how_readmore {
   display: none;
   transition: 0.5s linear;
@@ -1135,6 +1163,20 @@ textarea {
 }
 .why #checkb:checked ~ .read-more-text:after {
   content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.why #checkben {
+  display: none;
+}
+.why #checkben:checked ~ .readmore {
+  display: block;
+}
+.why #checkben:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.why #checkben:checked ~ .read-more-text:after {
+  content: "Show less";
   display: block;
   visibility: visible;
 }
@@ -1167,6 +1209,20 @@ textarea {
 }
 .methodology #method_checkb:checked ~ .read-more-text:after {
   content: "Mostrar menos";
+  display: block;
+  visibility: visible;
+}
+.methodology #method_checkben {
+  display: none;
+}
+.methodology #method_checkben:checked ~ .method_readmore {
+  display: block;
+}
+.methodology #method_checkben:checked ~ .read-more-text {
+  visibility: hidden;
+}
+.methodology #method_checkben:checked ~ .read-more-text:after {
+  content: "Show less";
   display: block;
   visibility: visible;
 }

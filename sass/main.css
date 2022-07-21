@@ -829,10 +829,6 @@ textarea {
   text-decoration: none;
 }
 
-.map-container iframe {
-  display: block;
-}
-
 .stripe {
   background-color: #5D9732;
   height: 1.4rem;

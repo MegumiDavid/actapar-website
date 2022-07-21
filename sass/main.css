@@ -468,6 +468,7 @@ ul {
   width: 2.5rem;
   height: auto;
   margin-right: 1rem;
+  margin-top: 3px;
 }
 .lang__menu {
   position: absolute;
@@ -512,6 +513,7 @@ ul {
   width: 2.5rem;
   height: auto;
   margin-right: 1rem;
+  margin-top: 4px;
 }
 .lang__btn p {
   color: #093E52;

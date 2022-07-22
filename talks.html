@@ -14,20 +14,87 @@
   </head>
   <body class="lecture">
     <nav class="nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-1-of-2">
-            <a href="index.html"
-              ><img src="images/actapar-logo.svg" alt="#" class="nav__logo"
-            /></a>
+      <nav class="nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-1-of-2">
+              <a href="index.html"
+                ><img src="images/actapar-logo.svg" alt="#" class="nav__logo"
+              /></a>
+            </div>
+            <div class="col-1-of-2">
+              <a href="#" id="btnHamburger" class="nav__toggle hide-for-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+              <ul class="nav__list hide-for-mobile">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="technology.html" class="nav__link">
+                    Tecnologia
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="talks.html" class="nav__link">
+                    Palestras
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="consultancy.html" class="nav__link">
+                    Consultoria
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="clients.html" class="nav__link">
+                    Clientes
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="contact.html" class="nav__link">
+                    Contato
+                  </a>
+                </li>
+                <li class="nav__item nav__lang">
+                  <div class="lang__change" id="changeLangBtn">
+                    <div class="lang__flexbox">
+                      <img class="lang__img" src="images/brazil.svg" alt="" />
+                      <i class="lang__icon fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="lang__menu">
+                    <desc>Alterar idioma</desc>
+                    <a href="index.html">
+                      <button class="btn lang__btn">
+                        <img
+                          class="lang__btn-img"
+                          src="images/brazil.svg"
+                          alt=""
+                        />
+                        <p>Português</p>
+                      </button>
+                    </a>
+                    <a href="en/index.html">
+                      <button class="btn lang__btn">
+                        <img
+                          src="images/usa.svg"
+                          alt=""
+                          class="lang__btn-img"
+                        />
+                        <p>Inglês</p>
+                      </button>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-1-of-2">
-            <a href="#" id="btnHamburger" class="nav__toggle hide-for-desktop">
-              <span></span>
-              <span></span>
-              <span></span>
-            </a>
-            <ul class="nav__list hide-for-mobile">
+        </div>
+        <div class="menu hide-for-desktop">
+          <div class="container">
+            <ul class="nav__list">
               <li class="nav__item">
                 <a href="index.html" class="nav__link">Home</a>
               </li>
@@ -44,37 +111,30 @@
                 <a href="clients.html" class="nav__link">Clientes</a>
               </li>
               <li class="nav__item">
-                <a href="contact.html" class="nav__link">Contanto</a>
+                <a href="contact.html" class="nav__link">Contato</a>
+              </li>
+              <li class="nav__item">
+                <a href="en/index.html">
+                  <button class="mobile-lang btn lang__btn">
+                    <img
+                      src="images/usa.svg"
+                      alt=""
+                      class="lang__btn-img"
+                    />
+                    <p>Inglês</p>
+                  </button>
+                </a>
+                <a href="index.html">
+                  <button class="mobile-lang btn lang__btn">
+                    <img class="lang__btn-img" src="images/brazil.svg" alt="" />
+                    <p>Português</p>
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-      <div class="menu hide-for-desktop">
-        <div class="container">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="technology.html" class="nav__link">Tecnologia</a>
-            </li>
-            <li class="nav__item">
-              <a href="talks.html" class="nav__link">Palestras</a>
-            </li>
-            <li class="nav__item">
-              <a href="consultancy.html" class="nav__link">Consultoria</a>
-            </li>
-            <li class="nav__item">
-              <a href="clients.html" class="nav__link">Clientes</a>
-            </li>
-            <li class="nav__item">
-              <a href="contact.html" class="nav__link">Contanto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
 
     <header class="header-lecture">
       <div class="stripe"></div>
@@ -147,7 +207,7 @@
               </li>
               <li class="footer__item">
                 <i class="footer__icon fa-solid fa-phone"></i>
-                <a href="https://wa.me/551138190364" class="footer__link"
+                <a href="tel:+55 11 3819-0364" class="footer__link"
                   >+55 11 3819-0364</a
                 >
               </li>

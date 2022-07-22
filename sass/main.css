@@ -1346,20 +1346,19 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 40rem);
-  grid-gap: 5rem;
+  gap: 4rem;
   margin-bottom: 5rem;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  gap: 4rem; */
 }
 @media only screen and (max-width: 950px) {
   .card-section .cards-tech {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 40rem);
+  }
+}
+@media only screen and (max-width: 375px) {
+  .card-section .cards-tech {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 50rem);
   }
 }
 .card-section .cards-tech ul {

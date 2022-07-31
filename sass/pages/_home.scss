@@ -58,6 +58,95 @@
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
 
+.book {
+
+  margin-bottom: -7rem;
+  
+  @media only screen and (max-width: 600px) {
+    margin-top: 1rem;
+  }
+
+  &__container {
+    background-color: $blue-light;
+    border-radius: 5px;
+
+    @media only screen and (max-width: $main-bp) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__content {
+    padding: 2rem 4rem;
+    width: 65%;
+    
+    @media only screen and (max-width: $main-bp) {
+      width: 100%;      
+      padding: 6rem 4rem;
+    }
+    @media only screen and (max-width: 500px) {
+      padding: 5rem 3rem;
+    }
+
+    .subtitle {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+      font-weight: 300;
+      margin-bottom: 6rem;
+    }
+  }
+
+  &__btn {
+    background-color: #fff;
+    color: $blue-light;
+    padding: 1rem 1.6rem;
+    border-radius: 2px;
+    font-weight: 400;
+    
+    .btn-icon {
+      margin-left: 2px;
+      font-size: 1.4rem;
+      transition: all .2s ease-in-out;
+    }
+    
+    &:hover {
+      .btn-icon {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &__img {
+    height: 60rem;
+    width: 35%;
+    background-image: url('../images/desktop/book-img.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%,0 100% );
+    border-radius: 0rem 5px 5px 0rem;
+    
+    @media only screen and (max-width: $main-bp) {
+      clip-path: polygon(0 0, 100% 0, 100% 100%,0 100% );
+      width: 100%;
+      height: 25rem;
+      border-radius: 5px 5px 0rem 0rem;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
 .circle {
   display: flex;
   align-items: center;

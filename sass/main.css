@@ -547,7 +547,7 @@ ul {
 
 .header-consultancy__content {
   height: 64rem;
-  background-image: url("../../images/desktop/header-consultancy.png");
+  background-image: url("../images/desktop/header-consultancy.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -838,7 +838,7 @@ textarea {
 
 .header__content {
   height: 58rem;
-  background-image: url("../../images/desktop/header-home.png");
+  background-image: url("../images/desktop/header-home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1314,7 +1314,7 @@ textarea {
 
 .header-lecture__content {
   height: 64rem;
-  background-image: url("../../images/desktop/header-lecture.png");
+  background-image: url("../images/desktop/header-lecture.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1387,7 +1387,7 @@ textarea {
 
 .header-tech__content {
   height: 64rem;
-  background-image: url("../../images/desktop/header-technology.png");
+  background-image: url("../images/desktop/header-technology.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

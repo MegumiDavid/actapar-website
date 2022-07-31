@@ -1,0 +1,65 @@
+.thankyou-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    background-color: $blue-dark;
+}
+
+.sended-card {
+    background-color: $blue-light;
+    max-width: 47rem;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    @media only screen and (max-width: 400px) {
+        padding: 4rem 4rem;
+      }
+
+
+    .circle {
+        background-color: #fff;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+
+    p {
+        color: #fff;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    &__btn {
+        background-color: #fff;
+        color: $blue-light;
+        padding: 1.1rem 1.6rem;
+        border-radius: 8px;
+        font-weight: 400;
+        margin-top: .5rem;
+        
+        .btn-icon {
+          margin-left: 2px;
+          font-size: 1.4rem;
+          transition: all .2s ease-in-out;
+        }
+        
+        &:hover {
+          .btn-icon {
+            margin-left: 10px;
+          }
+        }
+    }
+}

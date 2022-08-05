@@ -1116,6 +1116,9 @@ textarea {
   text-align: center;
 }
 
+.goal {
+  scroll-margin-top: 4em;
+}
 .goal .row {
   align-items: start;
 }
@@ -1172,6 +1175,7 @@ textarea {
 }
 
 .how {
+  scroll-margin-top: 4em;
   background-color: #FCFAFA;
 }
 .how .row {
@@ -1229,6 +1233,9 @@ textarea {
   transition: 0.5s linear;
 }
 
+.why {
+  scroll-margin-top: 4em;
+}
 .why .container {
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -1267,6 +1274,7 @@ textarea {
 }
 
 .methodology {
+  scroll-margin-top: 4em;
   background-color: #FCFAFA;
 }
 .methodology .container {

@@ -333,6 +333,7 @@ ul {
 .nav .container {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
 }
 @media only screen and (max-width: 1000px) {
   .nav .row {
@@ -380,10 +381,15 @@ ul {
 .nav__toggle {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  right: 4rem;
+  top: 38%;
 }
 .nav__toggle > span {
-  display: block;
+  display: inline-block;
   width: 26px;
   height: 2px;
   background-color: black;

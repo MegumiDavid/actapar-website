@@ -551,6 +551,11 @@ ul {
   display: none;
 }
 
+.mobile-link {
+  width: 100%;
+  /* background-color: cadetblue; */
+}
+
 .header-consultancy__content {
   height: 64rem;
   background-image: url("../images/desktop/header-consultancy.png");

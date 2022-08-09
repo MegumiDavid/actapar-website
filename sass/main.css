@@ -1026,6 +1026,12 @@ textarea {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .cards-container .container {
+    padding: 0.5rem;
+  }
+}
+
 .card-home {
   border-radius: 0.5rem;
   display: flex;
@@ -1040,6 +1046,9 @@ textarea {
   flex-grow: 1;
   transition: all 0.5s;
 }
+.card-home .card-home__title2 {
+  display: none;
+}
 @media only screen and (min-width: 1700px) {
   .card-home {
     padding: 2.5rem 2rem;
@@ -1049,7 +1058,7 @@ textarea {
 @media only screen and (max-width: 1000px) {
   .card-home {
     min-width: 22%;
-    margin-top: 2rem;
+    margin-top: rem;
   }
   .card-home p {
     display: none;
@@ -1067,8 +1076,13 @@ textarea {
     height: 5%;
     margin-top: 10%;
   }
-  .card-home h3 {
+  .card-home .card-home__title1 {
     display: none;
+  }
+  .card-home .card-home__title2 {
+    display: block;
+    font-size: 2.15rem;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 800px) and (max-width: 600px) {

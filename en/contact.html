@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../sass/main.css" />
+
+    <title>Actapar</title>
+    <meta
+      name="description"
+      content="ACTAPAR é uma empresa especializada em gestão de cultura de inovação, sob cordenação de Antonio Carlos Teixeira Álvares, professor, empresário e especialista em Programas de Geração e Captação de Ideias de Alto Desempenho."
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-1-of-2">
+            <a href="index.html"
+              ><img src="../images/actapar-logo.svg" alt="actapar-logo" class="nav__logo"
+            /></a>
+          </div>
+          <div class="col-1-of-2">
+            <a href="#" id="btnHamburger" class="nav__toggle hide-for-desktop">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <ul class="nav__list hide-for-mobile">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="technology.html" class="nav__link"> Technology </a>
+              </li>
+              <li class="nav__item">
+                <a href="talks.html" class="nav__link"> Talks </a>
+              </li>
+              <li class="nav__item">
+                <a href="consultancy.html" class="nav__link"> Consultancy </a>
+              </li>
+              <li class="nav__item">
+                <a href="clients.html" class="nav__link"> Clients </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link"> Contact </a>
+              </li>
+              <li class="nav__item nav__lang">
+                <div class="lang__change" id="changeLangBtn">
+                  <div class="lang__flexbox">
+                    <img class="lang__img" src="../images/usa.svg" alt="usa" />
+                    <i class="lang__icon fa-solid fa-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="lang__menu">
+                  <desc>Change language</desc>
+                  <a href="../index.html">
+                    <button class="btn lang__btn">
+                      <img
+                        class="lang__btn-img"
+                        src="../images/brazil.svg"
+                        alt="brazil"
+                      />
+                      <p>Portuguese</p>
+                    </button>
+                  </a>
+                  <a href="index.html">
+                    <button class="btn lang__btn">
+                      <img
+                        src="../images/usa.svg"
+                        alt="usa"
+                        class="lang__btn-img"
+                      />
+                      <p>English</p>
+                    </button>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu hide-for-desktop">
+        <div class="container">
+          <ul class="nav__list">
+            <a class="nav__item mobile-link" href="index.html">
+              <li class="nav__link">Home</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="technology.html">
+              <li class="nav__link">Technology</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="talks.html">
+              <li class="nav__link">Talks</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="consultancy.html">
+              <li class="nav__link">Consultancy</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="clients.html">
+              <li class="nav__link">Clients</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="contact.html">
+              <li class="nav__link">Contact</li>
+            </a>
+
+            <li class="nav__item">
+              <a href="index.html">
+                <button class="mobile-lang btn lang__btn">
+                  <img src="../images/usa.svg" alt="usa" class="lang__btn-img" />
+                  <p>English</p>
+                </button>
+              </a>
+              <a href="../index.html">
+                <button class="mobile-lang btn lang__btn">
+                  <img
+                    class="lang__btn-img"
+                    src="../images/brazil.svg"
+                    alt="brazil"
+                  />
+                  <p>Portuguese</p>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="stripe"></div>
+    <main class="main contact">
+      <div class="container">
+        <h1 class="mensage">Mande uma mensagem</h1>
+        <div class="row">
+          <div class="col-1-of-2">
+            <form class="form" action="https://formsubmit.co/megumilasagna@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="https://megumidavid.github.io/actapar-website/thankyou.html">
+              <input type="hidden" name="_template" value="box">
+              <label for="contact-name" class="name">Nome:</label>
+              <input
+                type="text"
+                name="name"
+                id="contact-name"
+                class="default-input"
+                required
+                placeholder="Seu Nome"
+              />
+
+              <label for="contact-email" class="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="contact-email"
+                class="default-input"
+                required
+                placeholder="exemplo@email.com"
+              />
+
+              <label for="contact-telephone" class="telephone">Telefone:</label>
+              <input
+                type="tel"
+                name="telephone"
+                id="contact-telephone"
+                class="default-input"
+                placeholder="(xx) xxxx-xxxx"
+              />
+
+              <label for="contact-mensage-subject" class="subject"
+                >Assunto:</label
+              >
+              <input
+                type="text"
+                name="assunto"
+                id="contact-mensage-subject"
+                class="default-input"
+                required
+                placeholder="assunto"
+              />
+
+              <label for="contact-mensage" class="text-mensage"
+                >Deixe sua mensagem aqui</label
+              >
+              <textarea
+                cols="70"
+                rows="6"
+                name="mensagem"
+                id="contac-mensage"
+                class="default-input"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
+
+              <div class="enviar">
+                <button type="submit" class="send-form">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-1-of-2">
+            <div class="contact-box">
+              <h2>Onde nos encontrar</h2>
+
+              <div class="wrapper">
+                <h2>Endereço</h2>
+                <ul>
+                  <li>
+                    <a
+                      href="https://goo.gl/maps/fMbfcPbuefEhScm29"
+                      target="_blank"
+                      >Rua 15 de Setembro, 174, Saúde, São Paulo, SP</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="wrapper">
+                <h2>Contatos</h2>
+                <ul>
+                  <li>
+                    <a href="mailto: contato@actapar.com.br"
+                      >contato@actapar.com.br</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:+55 11 3819-0364" target="_blank"
+                      >+55 (11) 3819-0364</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="wrapper">
+                <div class="title-wrapper">
+                  <!-- <i class="contact-box__icon fa-brands fa-wordpress"></i> -->
+                  <h2>Blog do Professor</h2>
+                </div>
+                <ul>
+                  <li>
+                    <a
+                      href="http://www.professorteixeira.com.br/"
+                      target="_blank"
+                      >professorteixeira.com.br</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stripe"></div>
+    </main>
+
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <a href="index.html">
+          <img
+            src="../images/actapar-logo-white.svg"
+            alt="Actapar Logo"
+            class="footer__logo"
+          />
+        </a>
+        <div class="row">
+          <div class="col--1">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-location-dot"></i>
+                <a
+                  href="https://goo.gl/maps/fMbfcPbuefEhScm29"
+                  class="footer__link"
+                  target="_blank"
+                  >Rua 15 de Setembro, 174, Saúde, São Paulo, SP</a
+                >
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-envelope"></i>
+                <a href="mailto: contato@actapar.com.br" class="footer__link"
+                  >contato@actapar.com.br</a
+                >
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-solid fa-phone"></i>
+                <a
+                  href="tel:+55 11 3819-0364"
+                  class="footer__link"
+                  target="_blank"
+                  >+55 11 3819-0364</a
+                >
+              </li>
+              <li class="footer__item">
+                <i class="footer__icon fa-brands fa-wordpress"></i>
+                <a
+                  href="http://www.professorteixeira.com.br/"
+                  class="footer__link"
+                  target="_blank"
+                  >Professor's Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col--wrapper">
+            <div class="col--2">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#what-we-do" class="footer__link">WHAT WE DO</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#how-we-do-it" class="footer__link">HOW WE DO IT</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#who-we-do-it-for" class="footer__link"
+                    >WHO WE DO IT FOR</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#methodology" class="footer__link">METHODOLOGY</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col--3">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="technology.html" class="footer__link">TECHNOLOGY</a>
+                </li>
+                <li class="footer__item">
+                  <a href="talks.html" class="footer__link">TALKS</a>
+                </li>
+                <li class="footer__item">
+                  <a href="consultancy.html" class="footer__link"
+                    >CONSULTANCY</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="clients.html" class="footer__link">CLIENTS</a>
+                </li>
+
+                <li class="footer__item">
+                  <a href="contact.html" class="footer__link">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="hr--wrapper">
+          <div class="hr"></div>
+        </div>
+        <p class="copyright">
+          © copyright actapar. all rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/8bc26bac35.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

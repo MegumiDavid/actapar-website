@@ -189,6 +189,14 @@
   }
 }
 
+.cards-container {
+  .container {
+    @media only screen and (max-width: 800px) {
+      padding: 0.5rem;
+    }
+  }
+}
+
 .card-home {
   border-radius: 0.5rem;
   display: flex;
@@ -202,6 +210,9 @@
   text-align: center;
   flex-grow: 1;
   transition: all 0.5s;
+  .card-home__title2 {
+    display: none;
+  }
 
   @media only screen and (min-width: 1700px) {
     padding: 2.5rem 2rem;
@@ -210,7 +221,7 @@
 
   @media only screen and (max-width: 1000px) {
     min-width: 22%;
-    margin-top: 2rem;
+    margin-top: rem;
     p {
       display: none;
     }
@@ -225,8 +236,13 @@
     min-width: 5%;
     height: 5%;
     margin-top: 10%;
-    h3 {
+    .card-home__title1 {
       display: none;
+    }
+    .card-home__title2 {
+      display: block;
+      font-size: 2.15rem;
+      white-space: nowrap;
     }
 
     @media only screen and (max-width: 600px) {

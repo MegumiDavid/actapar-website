@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon.ico"
+    />
     <link rel="stylesheet" href="../sass/main.css" />
 
     <title>Actapar</title>
@@ -34,7 +39,7 @@
             </a>
             <ul class="nav__list hide-for-mobile">
               <li class="nav__item">
-                <a href="index.html" class="nav__link">Home</a>
+                <a href="#" class="nav__link">Home</a>
               </li>
               <li class="nav__item">
                 <a href="technology.html" class="nav__link"> Technology </a>
@@ -89,24 +94,30 @@
       <div class="menu hide-for-desktop">
         <div class="container">
           <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="technology.html" class="nav__link">Technology</a>
-            </li>
-            <li class="nav__item">
-              <a href="talks.html" class="nav__link">Talks</a>
-            </li>
-            <li class="nav__item">
-              <a href="consultancy.html" class="nav__link">Consultancy</a>
-            </li>
-            <li class="nav__item">
-              <a href="clients.html" class="nav__link">Clients</a>
-            </li>
-            <li class="nav__item">
-              <a href="contact.html" class="nav__link">Contact</a>
-            </li>
+            <a class="nav__item mobile-link" href="index.html">
+              <li class="nav__link">Home</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="technology.html">
+              <li class="nav__link">Technology</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="talks.html">
+              <li class="nav__link">Talks</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="consultancy.html">
+              <li class="nav__link">Consultancy</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="clients.html">
+              <li class="nav__link">Clients</li>
+            </a>
+
+            <a class="nav__item mobile-link" href="contact.html">
+              <li class="nav__link">Contact</li>
+            </a>
+
             <li class="nav__item">
               <a href="index.html">
                 <button class="mobile-lang btn lang__btn">
@@ -146,14 +157,15 @@
       <div class="stripe"></div>
     </header>
 
-    <
     <div class="container">
       <div class="cards-home">
         <a href="#what-we-do" class="card-home card-home--1">
           <div class="circle">
             <i class="card-home__icon fa-solid fa-lightbulb"></i>
           </div>
-          <h3 class="card-home__title">What we do?</h3>
+          <h3 class="card-home__title1">What we do</h3>
+          <h3 class="card-home__title2">What</h3>
+
           <p class="card-home__p">Management of innovation culture.</p>
         </a>
 
@@ -161,7 +173,8 @@
           <div class="circle">
             <i class="card-home__icon fa-solid fa-gears"></i>
           </div>
-          <h3 class="card-home__title">How we do it?</h3>
+          <h3 class="card-home__title1">How we do it</h3>
+          <h3 class="card-home__title2">How</h3>
           <p class="card-home__p">Idea generation and capture.</p>
         </a>
 
@@ -169,7 +182,8 @@
           <div class="circle">
             <i class="card-home__icon fa-solid fa-magnifying-glass"></i>
           </div>
-          <h3 class="card-home__title">Who we do it for?</h3>
+          <h3 class="card-home__title1">Who we do it for</h3>
+          <h3 class="card-home__title2">Who</h3>
           <p class="card-home__p">Leadership who believe in innovation.</p>
         </a>
 
@@ -177,7 +191,8 @@
           <div class="circle">
             <i class="card-home__icon fa-solid fa-people-group"></i>
           </div>
-          <h3 class="card-home__title metodologia">Methodology</h3>
+          <h3 class="card-home__title1">Methodology</h3>
+          <h3 class="card-home__title2">Methods</h3>
           <p class="card-home__p">See our methodology.</p>
         </a>
       </div>
@@ -202,7 +217,7 @@
               process of democratization of innovation".
             </p>
             <a
-              href="https://www.google.com.br/books/edition/Inova%C3%A7%C3%A3o_horizontal/Xb86EAAAQBAJ?hl=pt-BR&gbpv=1&printsec=frontcover"
+              href="https://www.google.com.br/books/edition/Inova%C3%A7%C3%A3o_horizontal/Xb86EAAAQBAJ?hl=pt-BR&gbpv=0"
               target="_blank"
               class="book__btn"
               >Read it here <i class="btn-icon fa-solid fa-angle-right"></i
@@ -213,12 +228,12 @@
       </div>
     </section>
 
-    <section class="goal" id="what-we-do">
+    <section class="goal" id="o-que-fazemos">
       <div class="container">
         <div class="row">
           <div class="col-1-of-2">
             <input type="checkbox" id="goal_checkben" />
-            <h2 class="h2">What we do?</h2>
+            <h2 class="h2">What do we do?</h2>
             <p class="goal__p">
               We are a company specialized in the management of innovation
               culture, coordinated by
@@ -227,21 +242,22 @@
                 target="_blank"
                 class="blog-link"
                 >Antonio Carlos Teixeira Álvares</a
-              >, professor, entrepreneur and specialist in Generation and
-              Capture of High-Performance Ideas Programs.
+              >, professor, entrepreneur and specialist in high-performance
+              programs that focus on creating and gathering ideas.
             </p>
 
             <p></p>
 
             <p class="goal__p">
-              There is a widespread idea that an organization needs a lot of
+              There is a widespread notion that an organization needs a lot of
               money invested in R&D to be innovative. That's a myth.
             </p>
 
             <p class="goal__p">
-              We believe that a fundamental condition for a company to be
-              innovative is to have a strong innovation culture where employees,
-              at all levels, are directly involved, from general to the private.
+              We believe that the most fundamental condition for a company to be
+              innovative is to have a strong innovation culture where employees
+              are directly involved at all levels, from the general to the foot
+              soldier.
             </p>
             <div class="goal_readmore">
               <p class="goal__p">
@@ -251,12 +267,12 @@
 
               <p class="goal__p">
                 The internal development of innovation can be achieved through
-                the implementation of high-performance idea generation and
-                capture systems from all employees. This is ACTAPAR's proposal.
+                the implementation of high-performance systems that generate and
+                gather ideas from all employees. This is ACTAPAR's proposal.
               </p>
             </div>
             <label for="goal_checkben" class="read-more-text"
-              >Read More...</label
+              >Read more...</label
             >
           </div>
           <div class="col-1-of-2 goal__img-wrapper">
@@ -270,35 +286,35 @@
       </div>
     </section>
 
-    <section class="how" id="how-we-do-it">
+    <section class="how" id="como-fazemos">
       <div class="container">
         <div class="row row-reverse">
           <div class="col-1-of-2">
             <input type="checkbox" id="how_checkben" />
-            <h2>How we do it?</h2>
+            <h2>How do we do it?</h2>
             <p class="how__p">
               ACTAPAR has a strong team of professionals specialized in
               innovation culture to design and implement high-performance
-              systems to capture ideas, through change and/or adaptation by the
+              systems to capture ideas through change and/or adaptation by the
               client organization.
             </p>
             <p class="how__p">
               On the other hand, a process of change and/or adaptation of the
-              company's culture must count on the involvement of the directive,
-              especially the CEO.
+              company's culture must count on the involvement of high-ranking
+              individuals inside the company, especially that of CEOs.
             </p>
             <div class="how_readmore">
               <p class="how__p">
-                Thus, the first phase of the project consists of renowned talks
-                given to the company's leadership, informing them about the
-                different types of systems for generating and capturing ideas
-                and how a high-performance system in generating and capturing
-                ideas boosts the internal innovation culture, by favoring the
-                creation of the Internal Innovative Environment.
+                Thus, the first phase of the project consists of conceptual
+                lectures given to the company's leadership, informing them about
+                the different types of systems for generating and capturing
+                ideas and how a high-performance system in generating and
+                capturing ideas boosts the internal innovation culture, by
+                favoring the creation of the Internal Innovative Environment.
               </p>
               <p class="how__p">
-                Once the conceptualization talks for leadership phase is
-                finished, the project carries on with the following phases:
+                Once the phase of conceptualization lectures for the leadership
+                is finished, the project carries on with the following phases:
               </p>
               <ul class="how__list">
                 <li class="how__item li">
@@ -313,16 +329,18 @@
                 </li>
                 <li class="how__item li">
                   Pilot Test – in companies with more than 50 employees an area
-                  is chosen to test the idea generation and capture project.
+                  is chosen to test the project of generation and capture of
+                  ideas.
                 </li>
                 <li class="how__item li">
-                  Post-Implementation Consulting – consists mainly of training
-                  in the use of the system for all company employees and leaders
+                  Post-Implementation Consultancy – consists mainly of training
+                  in the use of the system aimed at all company employees and
+                  leaders.
                 </li>
               </ul>
             </div>
             <label for="how_checkben" class="read-more-text"
-              >Read More...</label
+              >Read more...</label
             >
           </div>
           <div class="col-1-of-2">
@@ -336,10 +354,10 @@
       </div>
     </section>
 
-    <section class="why" id="who-we-do-it-for">
+    <section class="why" id="para-quem-fazemos">
       <div class="container">
         <input type="checkbox" id="checkben" />
-        <h2>Who we do it for?</h2>
+        <h2>Who do we do it for?</h2>
         <p class="why__p">
           The first tactic for dealing with crises is usually cost reduction
           (doing more with less), which, although necessary, has a limit that,
@@ -371,45 +389,46 @@
             What is interesting is that such a culture generates a complex
             environment that favors creativity. This innovative environment
             (Internal Innovative Environment) produces many innovations, most of
-            them small, incremental, but also some radical.
+            them small or incremental, but sometimes radical innovations as
+            well.
           </p>
           <p class="why__p">
             Thus, the construction of a company's innovation culture (Internal
-            Innovative Environment) can be boosted with a system for generating
-            and capturing high-performance ideas.
+            Innovative Environment) can be boosted with a high-end system for
+            generating and capturing ideas.
           </p>
           <p class="why__p">
-            Some leaders have noticed this, but they find it difficult without
-            implementing such a system, almost always making the same mistake in
+            Some leaders have noticed this, but they find many challeges as to
+            how to implement such a system, generally making the same mistake in
             the form of the worn-out suggestion box systems, created at the end
             of the 19th century.
           </p>
           <p class="why__p">
-            ACTAPAR believes it has the solution for this, so we look for those
+            ACTAPAR believes to have the solution for this. As such, we help
             companies whose leadership believes in innovation coming from all
-            employees of the organization but need specialized advice to create
-            a high-performance system to generate and capture ideas.
+            employees of the organization, but who need specialized advice to
+            create a high-performance system to generate and capture ideas.
           </p>
         </div>
-        <label for="checkben" class="read-more-text">Read More...</label>
+        <label for="checkben" class="read-more-text">Read more...</label>
       </div>
     </section>
 
-    <section class="methodology" id="methodology">
+    <section class="methodology" id="metodologia">
       <div class="container">
         <input type="checkbox" id="method_checkben" />
-        <h2>Methodology Used</h2>
+        <h2>Our methodology</h2>
         <div class="wrapper">
-          <h3>Conceptual talks for leadership</h3>
+          <h3>Conceptual lectures for leaderships</h3>
           <ul>
             <li class="li">
-              Talks given to the Company's leadership addressing the most common
-              types of systems for generating and capturing ideas. Such as how a
-              high-performance system drives the internal innovation culture by
-              favoring the creation of the Internal Innovative Environment, and
-              the advantages of the concept of small ideas in the search for
-              innovation from all people in the organization, from the general
-              to the private.
+              Lectures given to the Company's leadership addressing the most
+              common types of systems for generating and capturing ideas, and
+              how a high-performance system drives the internal innovation
+              culture by favoring the creation of the Internal Innovative
+              Environment, and the advantages of the concept of small ideas in
+              the search for innovation from all people in the organization,
+              from the general to the private.
             </li>
             <li class="li">
               Individual interviews to measure awareness of the scope, benefits,
@@ -431,10 +450,10 @@
             <h3>Pilot Test Implementation</h3>
             <p>
               Small-scale testing of the idea system before it is extended to
-              the entire organization. In smaller organizations (less than 50
-              people) the pilot test involves everyone, however, a time for
+              the entire organization. In organizations with less than 50
+              people, the pilot test involves everyone, however, a time for
               experimentation and learning is defined after the idea system is
-              launched, before it is considered “officially” launched.
+              implemented, but before it is considered “officially” launched.
             </p>
           </div>
           <div class="wrapper">
@@ -444,26 +463,25 @@
                 System usage training for all company employees and leaders.
               </li>
               <li class="li">
-                Specific training for senior management for collections and
+                Specific training for senior management about demands and
                 performance monitoring.
               </li>
               <li class="li">
                 Periodic performance reports with meetings to discuss results.
               </li>
               <li class="li">Project team training for system management.</li>
-            </ul>
-          </div>
-          <div class="wrapper">
-            <h3>Creation of idea capture forms</h3>
-            <ul>
+              <li class="li">Creation of idea-capturing application forms</li>
               <li class="li">
-                • Development of a WEB environment for external capture of ideas
+                Development of a WEB environment for external capture of ideas
                 (together with the IT team).
               </li>
             </ul>
           </div>
+          <div class="wrapper">
+            <ul></ul>
+          </div>
         </div>
-        <label for="method_checkben" class="read-more-text">Read More...</label>
+        <label for="method_checkben" class="read-more-text">Read more...</label>
       </div>
     </section>
 
@@ -560,9 +578,7 @@
         <div class="hr--wrapper">
           <div class="hr"></div>
         </div>
-        <p class="copyright">
-          © copyright 2015. actapar by david-productions. all rights reserved.
-        </p>
+        <p class="copyright">© copyright actapar. all rights reserved.</p>
       </div>
     </footer>
 

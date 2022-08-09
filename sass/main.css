@@ -991,6 +991,7 @@ textarea {
   width: 8.5rem;
   height: 8.5rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   transition: all 0.2s ease-out;
   /*   @media only screen and (max-width: 450px) {
     width: 7vh;
@@ -1088,6 +1089,7 @@ textarea {
 @media only screen and (max-width: 800px) and (max-width: 600px) {
   .card-home {
     margin-top: 15%;
+    transform: translateY(-20rem);
   }
 }
 @media only screen and (max-width: 800px) and (max-width: 450px) {
@@ -1506,12 +1508,17 @@ textarea {
   background-color: #457B8F;
 }
 
+body.thankyou {
+  background-color: #093E52;
+}
+
 .thankyou-container {
   height: 100vh;
   display: flex;
   align-items: center;
   margin: auto 0;
   background-color: #093E52;
+  transform: translateY(-4.5rem);
 }
 
 .sended-card {

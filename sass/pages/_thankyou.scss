@@ -1,9 +1,14 @@
+body.thankyou {
+  background-color: $blue-dark;
+}
+
 .thankyou-container {
     height: 100vh;
     display: flex;
     align-items: center;
     margin: auto 0;
     background-color: $blue-dark;
+    transform: translateY(-4.5rem);
 }
 
 .sended-card {

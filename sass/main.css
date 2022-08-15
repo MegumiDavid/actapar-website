@@ -931,14 +931,22 @@ textarea {
     padding: 5rem 3rem;
   }
 }
+.book__content .title-section {
+  margin-bottom: 4rem;
+}
 .book__content .subtitle {
   color: #fff;
-  font-size: 1.6rem;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin-top: -5rem;
+  font-weight: 400;
+}
+.book__content .author {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
 }
 .book__content h2 {
   color: #fff;
+  margin-bottom: -0.1rem;
 }
 .book__content p {
   color: #fff;
